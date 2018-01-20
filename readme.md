@@ -9,7 +9,7 @@ Jssor Slider for Kendo UI
 
 Feature description in progress...
 
-## ToDos
+## Missing Features
 
 - [ ] Implementation of Jssor events
 - [ ] Implementation of slide layers and animations
