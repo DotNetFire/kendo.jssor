@@ -1,0 +1,15 @@
+﻿{
+  "id": "jssorl-008-ball-triangle",
+  "name": "loading-skin-008-ball-triangle",
+  "note": "",
+  "itemWidth": 50,
+  "itemHeight": 50,
+  "bgColor": "rgba(0,0,0,0.7)",
+  "cssClass": "#= id #-#= loading.id #",
+  "css": [
+    ".#= id #-#= loading.id # svg { animation-name: #= id #-#= loading.id #; animation-duration: 2.4s; animation-iteration-count: infinite; animation-timing-function: linear; margin-top: #= loading.itemHeight / -2 #px; position: relative; top: 50%; width: #= loading.itemWidth #px; height: #= loading.itemHeight #px; enable-background:new 35.5 -15.5 38 38; }",
+    "@keyframes #= id #-#= loading.id # { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+    ".#= id #-#= loading.id # .st0 { fill:none;stroke:\\#FFFFFF;stroke-width:0.8727; }"
+  ],
+  "svg": "<svg viewBox='35.5 -15.5 38 38'><g><circle class='st0' cx='54.5' cy='-5.8' r='2.2'/><circle class='st0' cx='44.9' cy='12.8' r='2.2'/><circle class='st0' cx='64.1' cy='12.8' r='2.2'/></g></svg>"
+}

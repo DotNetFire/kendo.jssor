@@ -1,0 +1,23 @@
+﻿{
+  "id": "jssort051",
+  "cssClass": "#= id #-#= thumbnailNavigation.id #",
+  "name": "thumbnail skin 051 dark",
+  "note": "",
+  "css": [
+    ".#= id #-#= thumbnailNavigation.id # .p {position:absolute;top:0;left:0;background-color:\\#000;}",
+    ".#= id #-#= thumbnailNavigation.id # .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.45;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover .t{opacity:.8;}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .t, .#= id #-#= thumbnailNavigation.id # .pdn .t, .#= id #-#= thumbnailNavigation.id # .p:hover.pdn .t{opacity:1;}"
+  ],
+  "show": 2,
+  "autoCenter": 1,
+  "loop": true, 
+  "height": 100,
+  "width": null,
+  "itemWidth": 200,
+  "itemHeight": 100,
+  "spacingX": null,
+  "spacingY": null,
+  "positionScale": 0.75,
+  "itemHtml": "<img data-u='thumb' data-tsize='{w:#= thumbnailNavigation.itemWidth #,h:#= thumbnailNavigation.itemWidth #' src='{0}' />"
+}

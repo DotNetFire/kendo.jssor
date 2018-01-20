@@ -1,0 +1,24 @@
+﻿{
+  "id": "jssort062",
+  "cssClass": "#= id #-#= thumbnailNavigation.id #",
+  "name": "thumbnail skin 062 white",
+  "note": "",
+  "css": [
+    ".#= id #-#= thumbnailNavigation.id # .p {position:absolute;top:0;left:0;border:2px solid rgba(0,0,0,.4);box-sizing:border-box;}",
+    ".#= id #-#= thumbnailNavigation.id # .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover {border-color:rgba(255,255,255,.6);}",
+    ".#= id #-#= thumbnailNavigation.id # .pav, .#= id #-#= thumbnailNavigation.id # .p:hover.pdn{border-color:\\#fff;}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .t, .#= id #-#= thumbnailNavigation.id # .p:hover.pdn .t{opacity:1;}"
+  ],
+  "show": 2,
+  "autoCenter": 1,
+  "loop": true,
+  "height": 100,
+  "width": null,
+  "itemWidth": 64,
+  "itemHeight": 64,
+  "spacingX": 5,
+  "spacingY": 5,
+  "positionScale": 0.75,
+  "itemHtml": "<img data-u='thumb' data-tsize='{w:#= thumbnailNavigation.itemWidth - 4 #,h:#= thumbnailNavigation.itemWidth - 4#' src='{0}' />"
+}

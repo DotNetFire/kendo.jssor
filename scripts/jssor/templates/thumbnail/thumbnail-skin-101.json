@@ -1,0 +1,33 @@
+﻿{
+  "id": "jssort101",
+  "cssClass": "#= id #-#= thumbnailNavigation.id #",
+  "name": "thumbnail skin 101",
+  "note": "",
+  "css": [
+    ".#= id #-#= thumbnailNavigation.id # .p {position: absolute;top:0;left:0;box-sizing:border-box;background:\\#000;}",
+    ".#= id #-#= thumbnailNavigation.id # .p .cv {position:relative;top:0;left:0;width:100%;height:100%;border:2px solid \\#000;box-sizing:border-box;z-index:1;}",
+    ".#= id #-#= thumbnailNavigation.id # .a {fill:none;stroke:\\#fff;stroke-width:400;stroke-miterlimit:10;visibility:hidden;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover .cv, .#= id #-#= thumbnailNavigation.id # .p.pdn .cv {border:none;border-color:transparent;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover{padding:2px;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover .cv {background-color:rgba(0,0,0,6);opacity:.35;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover.pdn{padding:0;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover.pdn .cv {border:2px solid \\#fff;background:none;opacity:.35;}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .cv {border-color:\\#fff;opacity:.35;}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .a, .#= id #-#= thumbnailNavigation.id # .p:hover .a {visibility:visible;}",
+    ".#= id #-#= thumbnailNavigation.id # .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.6;}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .t, .#= id #-#= thumbnailNavigation.id # .p:hover .t{opacity:1;}"
+  ],
+  "show": 2,
+  "autoCenter": 1,
+  "loop": true,
+  "height": 100,
+  "width": null,
+  "itemWidth": 190,
+  "itemHeight": 84,
+  "spacingX": 5,
+  "spacingY": 5,
+  "positionScale": 0.75,
+  "bgColor": "#000",
+  "itemHtml": "<img data-u='thumb' data-tsize='{w:#= thumbnailNavigation.itemWidth #,h:#= thumbnailNavigation.itemWidth #' src='{0}' />",
+  "svg": "<svg viewBox='0 0 16000 16000' class='cv'><circle class='a' cx='8000' cy='8000' r='3238.1'/><line class='a' x1='6190.5' y1='8000' x2='9809.5' y2='8000'/><line class='a' x1='8000' y1='9809.5' x2='8000' y2='6190.5'/></svg>"
+}

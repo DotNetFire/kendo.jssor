@@ -1,0 +1,16 @@
+﻿{
+  "id": "jssorl-003-oval",
+  "name": "loading-003-skin-oval",
+  "note": "",
+  "itemWidth": 38,
+  "itemHeight": 38,
+  "bgColor": "rgba(0,0,0,0.7)",
+  "cssClass": "#= id #-#= loading.id #",
+  "css": [
+    ".#= id #-#= loading.id # svg { animation-name: #= id #-#= loading.id #; animation-duration: 1.2s; animation-iteration-count: infinite; animation-timing-function: linear; margin-top: #= loading.itemHeight / -2 #px; position: relative; top: 50%; width: #= loading.itemWidth #px; height: #= loading.itemHeight #px; enable-background:new 16 -16 38 38; }",
+    "@keyframes #= id #-#= loading.id # { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }",
+    ".#= id #-#= loading.id # .st0 { fill:none;stroke:\\#ffffff;stroke-width:1.3333;stroke-opacity:0.5; }",
+    ".#= id #-#= loading.id # .st1 { fill:none;stroke:\\#ffffff;stroke-width:1.3333; }"
+  ],
+  "svg": "<svg viewBox='16 -16 38 38'><g id='oval'><g transform='translate(1 1)'><circle class='st0' cx='34' cy='2' r='12'/><path class='st1' d='M46,2c0-6.6-5.4-12-12-12'/></g></g></svg>"
+}

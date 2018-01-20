@@ -1,0 +1,26 @@
+﻿{
+  "id": "jssort111",
+  "cssClass": "#= id #-#= thumbnailNavigation.id #",
+  "name": "thumbnail skin 111",
+  "note": "",
+  "css": [
+    ".#= id #-#= thumbnailNavigation.id # .p {position:absolute;top:0;left:0;width:#= thumbnailNavigation.itemWidth #px;height:#= thumbnailNavigation.itemHeight #px;background-color:\\#000;}",
+    ".#= id #-#= thumbnailNavigation.id # .p img {position:absolute;top:0;left:0;width:100%;height:100%;}",
+    ".#= id #-#= thumbnailNavigation.id # .t {position:absolute;top:0;left:0;width:100%;height:100%;border:none;opacity:.45;}",
+    ".#= id #-#= thumbnailNavigation.id # .p:hover .t {opacity:.8;}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .t, .#= id #-#= thumbnailNavigation.id # .pdn .t, .#= id #-#= thumbnailNavigation.id # .p:hover.pdn .t{opacity:1;}",
+    ".#= id #-#= thumbnailNavigation.id # .ti {position:absolute;bottom:0px;left:0px;width:100%;height:#= thumbnailNavigation.itemHeight * 0.28 #px;line-height:#= thumbnailNavigation.itemHeight * 0.28 #px;text-align:center;font-size:#= thumbnailNavigation.fontSize #px;line-height:#= thumbnailNavigation.lineHeight #px;color:\\#fff;background-color:rgba(0,0,0,.3)}",
+    ".#= id #-#= thumbnailNavigation.id # .pav .ti, .#= id #-#= thumbnailNavigation.id # .pdn .ti, .#= id #-#= thumbnailNavigation.id # .p:hover.pdn .ti {color:\\#000;background-color:rgba(255,255,255,.6);}"
+  ],
+  "show": 2,
+  "autoCenter": 1,
+  "loop": true,
+  "height": 100,
+  "width": null,
+  "itemWidth": 200,
+  "itemHeight": 100,
+  "positionScale": 0.75,
+  "fontSize": 12,
+  "lineHeight": 26,
+  "itemHtml": "<div data-u='thumb'><img data-u='thumb' data-tsize='{w:#= thumbnailNavigation.itemWidth #,h:#= thumbnailNavigation.itemWidth #' src='{0}' /><div class='ti'>{1}</div></div>"
+}

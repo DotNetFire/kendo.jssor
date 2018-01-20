@@ -1,0 +1,26 @@
+﻿{
+  "id": "jssorb109",
+  "cssClass": "#= id #-#= bulletNavigation.id #",
+  "name": "bullet skin 109 black",
+  "note": "",
+  "css": [
+    ".#= id #-#= bulletNavigation.id # {position:absolute;}",
+    ".#= id #-#= bulletNavigation.id # .i {position:absolute;cursor:pointer;}",
+    ".#= id #-#= bulletNavigation.id # .i .b  {fill:\\#000;fill-opacity:0.5;stroke:\\#fff;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.3;}",
+    ".#= id #-#= bulletNavigation.id # .i:hover .b {fill:\\#fff;fill-opacity:1;stroke:\\#2b1908;stroke-opacity:.5;stroke-width:2000;}",
+    ".#= id #-#= bulletNavigation.id # .iav .b {fill:\\#fff;fill-opacity:1;stroke:\\#ffaa00;stroke-opacity:1;stroke-width:2000;}",
+    ".#= id #-#= bulletNavigation.id # .i.idn {opacity:.3;}"
+  ],
+  "show": 2,
+  "itemWidth": 16,
+  "itemHeight": 16,
+  "horizontalOffset": 12,
+  "verticalOffset": 12,
+  "autoCenter": 1,
+  "itemScale": 0.5,
+  "positionScale": 0.75,
+  "orientation": 1,
+  "fontSize": null,
+  "lineHeight": null,
+  "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><path class='b' d='M11400,13800H4600c-1320,0-2400-1080-2400-2400V4600c0-1320,1080-2400,2400-2400h6800 c1320,0,2400,1080,2400,2400v6800C13800,12720,12720,13800,11400,13800z' /></svg>"
+}

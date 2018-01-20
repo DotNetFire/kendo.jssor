@@ -1,0 +1,30 @@
+﻿{
+  "id": "jssora111",
+  "name": "arrow skin 111 light",
+  "note": "",
+  "show": 2,
+  "itemWidth": 50,
+  "itemHeight": 50,
+  "itemScale": 0.50,
+  "positionScale": 0.75,
+  "autoCenter": 2,
+  "css": [
+    ".#= id #-#= arrowNavigation.id # {display:block;position:absolute;cursor:pointer;}",
+    ".#= id #-#= arrowNavigation.id # .a {fill:\\#ddd;fill-opacity:.7;stroke:\\#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:.7;}",
+    ".#= id #-#= arrowNavigation.id #:hover {opacity:.8;}",
+    ".#= id #-#= arrowNavigation.id #.#= id #-#= arrowNavigation.id #dn {opacity:.4;}",
+    ".#= id #-#= arrowNavigation.id #.{#= id #-#= arrowNavigation.id #ds {opacity:.3;pointer-events:none;}"
+  ],
+  "leftArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><path class='a' d='M4576,7719.7l5678-5677.8c81.3-81.2,174.8-121.9,280.3-121.9c105.6,0,199,40.8,280.3,121.9 l609.1,609.2c81.3,81.2,121.8,174.5,121.8,280.3c0,105.8-40.5,199-121.8,280.3L6635.2,8000.1l4788.4,4788.5 c81.3,81.2,121.8,174.7,121.8,280.1c0,105.7-40.5,199.2-121.8,280.4l-609.2,609c-81.2,81.3-174.7,121.8-280.3,121.8 c-105.5,0-199-40.6-280.3-121.8L4576.3,8280.4c-81.2-81.2-121.8-174.7-121.8-280.3C4454.5,7894.5,4494.8,7801.1,4576,7719.7z'/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 123
+  },
+  "rightArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><path class='a' d='M11424,7719.7L5746,2041.9c-81.3-81.2-174.8-121.9-280.3-121.9c-105.6,0-199,40.8-280.3,121.9 l-609.1,609.2c-81.3,81.2-121.8,174.5-121.8,280.3c0,105.8,40.5,199,121.8,280.3l4788.4,4788.4l-4788.4,4788.5 c-81.3,81.2-121.8,174.7-121.8,280.1c0,105.7,40.5,199.2,121.8,280.4l609.2,609c81.2,81.3,174.7,121.8,280.3,121.8 c105.5,0,199-40.6,280.3-121.8l5677.7-5677.8c81.2-81.2,121.8-174.7,121.8-280.3C11545.5,7894.5,11505.2,7801.1,11424,7719.7z'/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 123
+  }
+}

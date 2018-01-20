@@ -1,0 +1,32 @@
+﻿{
+  "id": "jssora082",
+  "name": "arrow skin 082 white",
+  "note": "",
+  "show": 2,
+  "itemWidth": 30,
+  "itemHeight": 40,
+  "itemScale": 0.75,
+  "positionScale": 0.75,
+  "autoCenter": 2,
+  "css": [
+    ".#= id #-#= arrowNavigation.id # {display:block;position:absolute;cursor:pointer;}",
+    ".#= id #-#= arrowNavigation.id # .c {fill:\\#fff;fill-opacity:.5;stroke:\\#000;stroke-width:160;stroke-miterlimit:10;stroke-opacity:0.3;}",
+    ".#= id #-#= arrowNavigation.id # .a {fill:\\#000;opacity:.8;}",
+    ".#= id #-#= arrowNavigation.id #:hover .c {fill-opacity:.3;}",
+    ".#= id #-#= arrowNavigation.id #:hover .a {opacity:1;}",
+    ".#= id #-#= arrowNavigation.id #.#= id #-#= arrowNavigation.id #dn {opacity:.5;}",
+    ".#= id #-#= arrowNavigation.id #.{#= id #-#= arrowNavigation.id #ds {opacity:.3;pointer-events:none;}"
+  ],
+  "leftArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='2000 0 12000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><path class='c' d='M4800,14080h6400c528,0,960-432,960-960V2880c0-528-432-960-960-960H4800c-528,0-960,432-960,960 v10240C3840,13648,4272,14080,4800,14080z'/><path class='a' d='M6860.8,8102.7l1693.9,1693.9c28.9,28.9,63.2,43.4,102.7,43.4s73.8-14.5,102.7-43.4l379-379 c28.9-28.9,43.4-63.2,43.4-102.7c0-39.6-14.5-73.8-43.4-102.7L7926.9,8000l1212.2-1212.2c28.9-28.9,43.4-63.2,43.4-102.7 c0-39.6-14.5-73.8-43.4-102.7l-379-379c-28.9-28.9-63.2-43.4-102.7-43.4s-73.8,14.5-102.7,43.4L6860.8,7897.3 c-28.9,28.9-43.4,63.2-43.4,102.7S6831.9,8073.8,6860.8,8102.7L6860.8,8102.7z'/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 170
+  },
+  "rightArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='2000 0 12000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><path class='c' d='M11200,14080H4800c-528,0-960-432-960-960V2880c0-528,432-960,960-960h6400 c528,0,960,432,960,960v10240C12160,13648,11728,14080,11200,14080z'/><path class='a' d='M9139.2,8102.7L7445.3,9796.6c-28.9,28.9-63.2,43.4-102.7,43.4c-39.6,0-73.8-14.5-102.7-43.4 l-379-379c-28.9-28.9-43.4-63.2-43.4-102.7c0-39.6,14.5-73.8,43.4-102.7L8073.1,8000L6860.8,6787.8 c-28.9-28.9-43.4-63.2-43.4-102.7c0-39.6,14.5-73.8,43.4-102.7l379-379c28.9-28.9,63.2-43.4,102.7-43.4 c39.6,0,73.8,14.5,102.7,43.4l1693.9,1693.9c28.9,28.9,43.4,63.2,43.4,102.7S9168.1,8073.8,9139.2,8102.7L9139.2,8102.7z'/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 170
+  }
+}

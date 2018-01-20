@@ -1,0 +1,25 @@
+﻿{
+  "id": "jssorb058",
+  "cssClass": "#= id #-#= bulletNavigation.id #",
+  "name": "bullet skin 058 black",
+  "note": "",
+  "css": [
+    ".#= id #-#= bulletNavigation.id # .i {position:absolute;cursor:pointer;}",
+    ".#= id #-#= bulletNavigation.id # .i .b {fill:none;stroke:\\#000;stroke-width:2000;stroke-miterlimit:10;stroke-opacity:0.3;}",
+    ".#= id #-#= bulletNavigation.id # .i:hover .b {stroke-opacity:.7;}",
+    ".#= id #-#= bulletNavigation.id # .iav .b {stroke-opacity: 1;}",
+    ".#= id #-#= bulletNavigation.id # .i.idn {opacity:.3;}"
+  ],
+  "show": 2,
+  "itemWidth": 16,
+  "itemHeight": 16,
+  "horizontalOffset": 12,
+  "verticalOffset": 12,
+  "autoCenter": 1,
+  "itemScale": 0.5,
+  "positionScale": 0.75,
+  "orientation": 1,
+  "fontSize": null,
+  "lineHeight": null,
+  "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><circle class='b' cx='8000' cy='8000' r='5000' /></svg>"
+}

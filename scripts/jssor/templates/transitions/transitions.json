@@ -1,0 +1,1582 @@
+﻿[
+  {
+    "group": 0,
+    "name": "Fade",
+    "transition": "{ $Duration: 800, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in L",
+    "transition": "{ $Duration: 800, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in R",
+    "transition": "{ $Duration: 800, x: -.3, $During: { $Left: [.3, .7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in T",
+    "transition": "{ $Duration: 800, y: .3, $During: { $Top: [.3, .7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in B",
+    "transition": "{ $Duration: 800, y: -.3, $During: { $Top: [.3, .7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in LR",
+    "transition": "{ $Duration: 800, x: .3, $Cols: 2, $During: { $Left: [.3, .7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in LR Chess",
+    "transition": "{ $Duration: 800, y: .3, $Cols: 2, $During: { $Top: [.3, .7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in TB",
+    "transition": "{ $Duration: 800, y: .3, $Rows: 2, $During: { $Top: [.3, .7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in TB Chess",
+    "transition": "{ $Duration: 800, x: .3, $Rows: 2, $During: { $Left: [.3, .7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade in Corners",
+    "transition": "{ $Duration: 800, x: .3, y: .3, $Cols: 2, $Rows: 2, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out L",
+    "transition": "{ $Duration: 800, x: .3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out R",
+    "transition": "{ $Duration: 800, x: -.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out T",
+    "transition": "{ $Duration: 800, y: .3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out B",
+    "transition": "{ $Duration: 800, y: -.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out LR",
+    "transition": "{ $Duration: 800, x: .3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out LR Chess",
+    "transition": "{ $Duration: 800, y: -.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out TB",
+    "transition": "{ $Duration: 800, y: .3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out TB Chess",
+    "transition": "{ $Duration: 800, x: -.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade out Corners",
+    "transition": "{ $Duration: 800, x: .3, y: .3, $Cols: 2, $Rows: 2, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in L",
+    "transition": "{ $Duration: 800, x: .3, $During: { $Left: [.3, .7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in R",
+    "transition": "{ $Duration: 800, x: -.3, $During: { $Left: [.3, .7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in T",
+    "transition": "{ $Duration: 800, y: .3, $During: { $Top: [.3, .7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in B",
+    "transition": "{ $Duration: 800, y: -.3, $During: { $Top: [.3, .7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in LR",
+    "transition": "{ $Duration: 800, x: .3, $Cols: 2, $During: { $Left: [.3, .7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in LR Chess",
+    "transition": "{ $Duration: 800, y: .3, $Cols: 2, $During: { $Top: [.3, .7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in TB",
+    "transition": "{ $Duration: 800, y: .3, $Rows: 2, $During: { $Top: [.3, .7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in TB Chess",
+    "transition": "{ $Duration: 800, x: .3, $Rows: 2, $During: { $Left: [.3, .7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly in Corners",
+    "transition": "{ $Duration: 800, x: .3, y: .3, $Cols: 2, $Rows: 2, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out L",
+    "transition": "{ $Duration: 800, x: .3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out R",
+    "transition": "{ $Duration: 800, x: -.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out T",
+    "transition": "{ $Duration: 800, y: .3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out B",
+    "transition": "{ $Duration: 800, y: -.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out LR",
+    "transition": "{ $Duration: 800, x: .3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out LR Chess",
+    "transition": "{ $Duration: 800, y: .3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out TB",
+    "transition": "{ $Duration: 800, y: .3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out TB Chess",
+    "transition": "{ $Duration: 800, x: .3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Fly out Corners",
+    "transition": "{ $Duration: 800, x: .3, y: .3, $Cols: 2, $Rows: 2, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Outside: true }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Clip in H",
+    "transition": "{ $Duration: 800, $Delay: 20, $Clip: 3, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Clip in V",
+    "transition": "{ $Duration: 800, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Clip out H",
+    "transition": "{ $Duration: 800, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Clip out V",
+    "transition": "{ $Duration: 800, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Stairs",
+    "transition": "{ $Duration: 600, $Delay: 20, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 2050, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Random",
+    "transition": "{ $Duration: 600, $Delay: 60, $Cols: 8, $Rows: 4, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade Swirl",
+    "transition": "{ $Duration: 600, $Delay: 20, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Opacity: 2 }"
+  },
+  {
+    "group": 0,
+    "name": "Fade ZigZag",
+    "transition": "{ $Duration: 600, $Delay: 20, $Cols: 8, $Rows: 4, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Opacity: 2 }"
+  },
+  {
+    "group": 1,
+    "name": "Fade Twins",
+    "transition": "{ $Duration: 700, $Opacity: 2, $Brother: { $Duration: 700, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate away",
+    "transition": "{ $Duration: 800, $Zoom: 1, $Rotate: .5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Brother: { $Duration: 800, $Zoom: 11, $Rotate: -.5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Shift: 200 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate away acw",
+    "transition": "{ $Duration: 800, $Zoom: 1, $Rotate: -.5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Brother: { $Duration: 800, $Zoom: 11, $Rotate: .5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Shift: 200 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate back",
+    "transition": "{ $Duration: 800, $Zoom: 11, $Rotate: .5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Brother: { $Duration: 800, $Zoom: 1, $Rotate: -.5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Shift: 200 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate back acw",
+    "transition": "{ $Duration: 800, $Zoom: 11, $Rotate: -.5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Brother: { $Duration: 800, $Zoom: 1, $Rotate: .5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Shift: 200 } }"
+  },
+  {
+    "group": 1,
+    "name": "Switch",
+    "transition": "{ $Duration: 800, x: .25, $Zoom: 1.5, $Easing: { $Left: $Jease$.$InWave, $Zoom: $Jease$.$InCubic }, $Opacity: 2, $ZIndex: -10, $Brother: { $Duration: 800, x: -.25, $Zoom: 1.5, $Easing: { $Left: $Jease$.$InWave, $Zoom: $Jease$.$InCubic }, $Opacity: 2, $ZIndex: -10 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate Relay",
+    "transition": "{ $Duration: 800, $Zoom: 11, $Rotate: 1, $Easing: { $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Rotate: 1 }, $ZIndex: -10, $Brother: { $Duration: 800, $Zoom: 11, $Rotate: -1, $Easing: { $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Rotate: 1 }, $ZIndex: -10, $Shift: 400 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate Relay acw",
+    "transition": "{ $Duration: 800, $Zoom: 11, $Rotate: -1, $Easing: { $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Rotate: 1 }, $ZIndex: -10, $Brother: { $Duration: 800, $Zoom: 11, $Rotate: 1, $Easing: { $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Rotate: 1 }, $ZIndex: -10, $Shift: 400 } }"
+  },
+  {
+    "group": 1,
+    "name": "Doors",
+    "transition": "{ $Duration: 1200, x: .5, $Cols: 2, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InOutCubic }, $Opacity: 2, $Brother: { $Duration: 1200, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Doors close",
+    "transition": "{ $Duration: 1200, $Opacity: 2, $Brother: { $Duration: 1200, x: .5, $Cols: 2, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InOutCubic }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate in+ out-",
+    "transition": "{ $Duration: 1e3, x: -.3, y: .5, $Zoom: 1, $Rotate: .1, $During: { $Left: [.6, .4], $Top: [.6, .4], $Rotate: [.6, .4], $Zoom: [.6, .4] }, $Easing: { $Left: $Jease$.$InSine, $Top: $Jease$.$InSine, $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$InSine }, $Opacity: 2, $Brother: { $Duration: 600, $Zoom: 11, $Rotate: -.5, $Easing: { $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$InSine }, $Opacity: 2, $Shift: 0 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate in- out+",
+    "transition": "{ $Duration: 1e3, x: -.6, y: 1, $Zoom: 11, $Rotate: .1, $During: { $Left: [.6, .4], $Top: [.6, .4], $Rotate: [.6, .4], $Zoom: [.6, .4] }, $Easing: { $Left: $Jease$.$InSine, $Top: $Jease$.$InSine, $Rotate: $Jease$.$InSine, $Zoom: $Jease$.$InSine }, $Opacity: 2, $Brother: { $Duration: 600, $Zoom: 1, $Rotate: -.5, $Easing: { $Rotate: $Jease$.$InCubic, $Zoom: $Jease$.$InSine }, $Opacity: 2, $Shift: 0 } }"
+  },
+  {
+    "group": 1,
+    "name": "Fly Twins",
+    "transition": "{ $Duration: 600, x: .3, $During: { $Left: [.6, .4] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Brother: { $Duration: 600, x: -.3, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Chess Replace TB",
+    "transition": "{ $Duration: 1e3, x: 1, $Rows: 2, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Brother: { $Duration: 1e3, x: -1, $Rows: 2, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Chess Replace LR",
+    "transition": "{ $Duration: 1e3, y: -1, $Cols: 2, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Brother: { $Duration: 1e3, y: 1, $Cols: 2, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Zoom back",
+    "transition": "{ $Duration: 800, $Zoom: 11, $Easing: { $Zoom: $Jease$.$InOutExpo }, $Opacity: 2, $Brother: { $Duration: 600, $Zoom: 1.5, $Easing: { $Zoom: $Jease$.$InOutExpo }, $Opacity: 2, $Shift: -100 } }"
+  },
+  {
+    "group": 1,
+    "name": "Zoom away",
+    "transition": "{ $Duration: 800, $Zoom: 1.9, $Easing: { $Zoom: $Jease$.$InOutExpo }, $Opacity: 2, $Brother: { $Duration: 600, $Zoom: 11, $Easing: { $Zoom: $Jease$.$InOutExpo }, $Opacity: 2, $Shift: -100 } }"
+  },
+  {
+    "group": 1,
+    "name": "Zoom return",
+    "transition": "{ $Duration: 800, $Zoom: 11, $Easing: { $Zoom: $Jease$.$InOutExpo }, $Opacity: 2, $Brother: { $Duration: 600, $Zoom: 11, $Easing: { $Zoom: $Jease$.$InOutExpo }, $Opacity: 2, $Shift: -100 } }"
+  },
+  {
+    "group": 1,
+    "name": "Shift TB",
+    "transition": "{ $Duration: 800, y: 1, $Easing: { $Top: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Brother: { $Duration: 800, y: -1, $Easing: { $Top: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Shift LR",
+    "transition": "{ $Duration: 800, x: 1, $Easing: { $Left: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Brother: { $Duration: 800, x: -1, $Easing: { $Left: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Return TB",
+    "transition": "{ $Duration: 800, y: -1, $Easing: { $Top: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $ZIndex: -10, $Brother: { $Duration: 800, y: -1, $Easing: { $Top: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $ZIndex: -10, $Shift: -100 } }"
+  },
+  {
+    "group": 1,
+    "name": "Return LR",
+    "transition": "{ $Duration: 800, x: 1, $Delay: 40, $Cols: 6, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: { $Left: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $ZIndex: -10, $Brother: { $Duration: 800, x: 1, $Delay: 40, $Cols: 6, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: { $Left: $Jease$.$InOutQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2, $ZIndex: -10, $Shift: -60 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate Axis up",
+    "transition": "{ $Duration: 800, x: .25, y: .5, $Rotate: -.1, $Easing: { $Left: $Jease$.$InQuad, $Top: $Jease$.$InQuad, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad }, $Opacity: 2, $Brother: { $Duration: 800, x: -.1, y: -.7, $Rotate: .1, $Easing: { $Left: $Jease$.$InQuad, $Top: $Jease$.$InQuad, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Rotate Axis down",
+    "transition": "{ $Duration: 1e3, x: -.1, y: -.7, $Rotate: .1, $During: { $Left: [.6, .4], $Top: [.6, .4], $Rotate: [.6, .4] }, $Easing: { $Left: $Jease$.$InQuad, $Top: $Jease$.$InQuad, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad }, $Opacity: 2, $Brother: { $Duration: 1e3, x: .2, y: .5, $Rotate: -.1, $Easing: { $Left: $Jease$.$InQuad, $Top: $Jease$.$InQuad, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuad }, $Opacity: 2 } }"
+  },
+  {
+    "group": 1,
+    "name": "Extrude Replace",
+    "transition": "{ $Duration: 800, x: -.2, $Delay: 40, $Cols: 12, $During: { $Left: [.4, .6] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 260, $Easing: { $Left: $Jease$.$InOutExpo, $Opacity: $Jease$.$InOutQuad }, $Opacity: 2, $Outside: true, $Round: { $Top: .5 }, $Brother: { $Duration: 800, x: .2, $Delay: 40, $Cols: 12, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 1028, $Easing: { $Left: $Jease$.$InOutExpo, $Opacity: $Jease$.$InOutQuad }, $Opacity: 2, $Round: { $Top: .5 }, $Shift: -200 } }"
+  },
+  {
+    "group": 1,
+    "name": "Extrude Return",
+    "transition": "{ $Duration: 800, x: .2, $Delay: 40, $Cols: 12, $During: { $Left: [.4, .6] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: { $Left: $Jease$.$InOutExpo, $Opacity: $Jease$.$InOutQuad }, $Opacity: 2, $Outside: true, $Round: { $Top: .5 }, $Brother: { $Duration: 800, x: .2, $Delay: 40, $Cols: 12, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 1028, $Easing: { $Left: $Jease$.$InOutExpo, $Opacity: $Jease$.$InOutQuad }, $Opacity: 2, $Round: { $Top: .5 }, $Shift: -200 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate VDouble+ in",
+    "transition": "{ $Duration: 1200, x: -1, y: 2, $Rows: 2, $Zoom: 11, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate HDouble+ in",
+    "transition": "{ $Duration: 1200, x: 2, y: 1, $Cols: 2, $Zoom: 11, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate VDouble- in",
+    "transition": "{ $Duration: 1200, x: -.5, y: 1, $Rows: 2, $Zoom: 1, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate HDouble- in",
+    "transition": "{ $Duration: 1200, x: .5, y: .3, $Cols: 2, $Zoom: 1, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate VDouble+ out",
+    "transition": "{ $Duration: 1e3, x: -1, y: 2, $Rows: 2, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InExpo }, $Opacity: 2, $Round: { $Rotate: .85 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate HDouble+ out",
+    "transition": "{ $Duration: 1e3, x: 4, y: 2, $Cols: 2, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InExpo }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate VDouble- out",
+    "transition": "{ $Duration: 1e3, x: -.5, y: 1, $Rows: 2, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InExpo }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate HDouble- out",
+    "transition": "{ $Duration: 1e3, x: .5, y: .3, $Cols: 2, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InExpo }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate VFork+ in",
+    "transition": "{ $Duration: 1200, x: -4, y: 2, $Rows: 2, $Zoom: 11, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Row: 28 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate HFork+ in",
+    "transition": "{ $Duration: 1200, x: 1, y: 2, $Cols: 2, $Zoom: 11, $Rotate: 1, $Assembly: 2049, $ChessMode: { $Column: 19 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate VFork+ out",
+    "transition": "{ $Duration: 1e3, x: -3, y: 1, $Rows: 2, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Row: 28 }, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InExpo }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate HFork+ out",
+    "transition": "{ $Duration: 1e3, x: 1, y: 2, $Cols: 2, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Column: 19 }, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InExpo }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in",
+    "transition": "{ $Duration: 1200, $Zoom: 11, $Rotate: 1, $Easing: { $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in L",
+    "transition": "{ $Duration: 1200, x: 4, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in R",
+    "transition": "{ $Duration: 1200, x: -4, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in T",
+    "transition": "{ $Duration: 1200, y: 4, $Zoom: 11, $Rotate: 1, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in B",
+    "transition": "{ $Duration: 1200, y: -4, $Zoom: 11, $Rotate: 1, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in TL",
+    "transition": "{ $Duration: 1200, x: 4, y: 4, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in TR",
+    "transition": "{ $Duration: 1200, x: -4, y: 4, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in BL",
+    "transition": "{ $Duration: 1200, x: 4, y: -4, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ in BR",
+    "transition": "{ $Duration: 1200, x: -4, y: -4, $Zoom: 11, $Rotate: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .7 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out",
+    "transition": "{ $Duration: 1e3, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Zoom: $Jease$.$InQuint, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out L",
+    "transition": "{ $Duration: 1e3, x: 4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out R",
+    "transition": "{ $Duration: 1e3, x: -4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out T",
+    "transition": "{ $Duration: 1e3, y: 4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Top: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out B",
+    "transition": "{ $Duration: 1e3, y: -4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Top: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out TL",
+    "transition": "{ $Duration: 1e3, x: 4, y: 4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InQuint, $Top: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out TR",
+    "transition": "{ $Duration: 1e3, x: -4, y: 4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InQuint, $Top: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out BL",
+    "transition": "{ $Duration: 1e3, x: 4, y: -4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InQuint, $Top: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom+ out BR",
+    "transition": "{ $Duration: 1e3, x: -4, y: -4, $Zoom: 11, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InQuint, $Top: $Jease$.$InQuint, $Zoom: $Jease$.$InQuart, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InQuint }, $Opacity: 2, $Round: { $Rotate: .8 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in",
+    "transition": "{ $Duration: 1200, $Zoom: 1, $Rotate: 1, $During: { $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: { $Zoom: $Jease$.$Swing, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$Swing }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in L",
+    "transition": "{ $Duration: 1200, x: .6, $Zoom: 1, $Rotate: 1, $During: { $Left: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in R",
+    "transition": "{ $Duration: 1200, x: -.6, $Zoom: 1, $Rotate: 1, $During: { $Left: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in T",
+    "transition": "{ $Duration: 1200, y: .6, $Zoom: 1, $Rotate: 1, $During: { $Top: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in B",
+    "transition": "{ $Duration: 1200, y: -.6, $Zoom: 1, $Rotate: 1, $During: { $Top: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in TL",
+    "transition": "{ $Duration: 1200, x: .6, y: .6, $Zoom: 1, $Rotate: 1, $During: { $Left: [.2, .8], $Top: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in TR",
+    "transition": "{ $Duration: 1200, x: -.6, y: .6, $Zoom: 1, $Rotate: 1, $During: { $Left: [.2, .8], $Top: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in BL",
+    "transition": "{ $Duration: 1200, x: .6, y: -.6, $Zoom: 1, $Rotate: 1, $During: { $Left: [.2, .8], $Top: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- in BR",
+    "transition": "{ $Duration: 1200, x: -.6, y: -.6, $Zoom: 1, $Rotate: 1, $During: { $Left: [.2, .8], $Top: [.2, .8], $Zoom: [.2, .8], $Rotate: [.2, .8] }, $Easing: $Jease$.$Swing, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out",
+    "transition": "{ $Duration: 1e3, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Opacity: $Jease$.$Linear }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out L",
+    "transition": "{ $Duration: 1e3, x: .5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out R",
+    "transition": "{ $Duration: 1e3, x: -.5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out T",
+    "transition": "{ $Duration: 1e3, y: .5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out B",
+    "transition": "{ $Duration: 1e3, y: -.5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out TL",
+    "transition": "{ $Duration: 1e3, x: .5, y: .5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out TR",
+    "transition": "{ $Duration: 1e3, x: -.5, y: .5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out BL",
+    "transition": "{ $Duration: 1e3, x: .5, y: -.5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 2,
+    "name": "Rotate Zoom- out BR",
+    "transition": "{ $Duration: 1e3, x: -.5, y: -.5, $Zoom: 1, $Rotate: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear, $Rotate: $Jease$.$InCubic }, $Opacity: 2, $Round: { $Rotate: .5 } }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom VDouble+ in",
+    "transition": "{ $Duration: 1200, y: 2, $Rows: 2, $Zoom: 11, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom HDouble+ in",
+    "transition": "{ $Duration: 1200, x: 4, $Cols: 2, $Zoom: 11, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom VDouble- in",
+    "transition": "{ $Duration: 1200, y: 1, $Rows: 2, $Zoom: 1, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom HDouble- in",
+    "transition": "{ $Duration: 1200, x: .5, $Cols: 2, $Zoom: 1, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom VDouble+ out",
+    "transition": "{ $Duration: 1200, y: 2, $Rows: 2, $Zoom: 11, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom HDouble+ out",
+    "transition": "{ $Duration: 1200, x: 4, $Cols: 2, $Zoom: 11, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom VDouble- out",
+    "transition": "{ $Duration: 1200, y: 1, $Rows: 2, $Zoom: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Row: 15 }, $Easing: { $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom HDouble- out",
+    "transition": "{ $Duration: 1200, x: .5, $Cols: 2, $Zoom: 1, $SlideOut: true, $Assembly: 2049, $ChessMode: { $Column: 15 }, $Easing: { $Left: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in",
+    "transition": "{ $Duration: 1e3, $Zoom: 11, $Easing: { $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in L",
+    "transition": "{ $Duration: 1e3, x: 4, $Zoom: 11, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in R",
+    "transition": "{ $Duration: 1e3, x: -4, $Zoom: 11, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2, $Round: { $Top: 2.5 } }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in T",
+    "transition": "{ $Duration: 1e3, y: 4, $Zoom: 11, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in B",
+    "transition": "{ $Duration: 1e3, y: -4, $Zoom: 11, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in TL",
+    "transition": "{ $Duration: 1e3, x: 4, y: 4, $Zoom: 11, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in TR",
+    "transition": "{ $Duration: 1e3, x: -4, y: 4, $Zoom: 11, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in BL",
+    "transition": "{ $Duration: 1e3, x: 4, y: -4, $Zoom: 11, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ in BR",
+    "transition": "{ $Duration: 1e3, x: -4, y: -4, $Zoom: 11, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out",
+    "transition": "{ $Duration: 1e3, $Zoom: 11, $SlideOut: true, $Easing: { $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out L",
+    "transition": "{ $Duration: 1e3, x: 4, $Zoom: 11, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out R",
+    "transition": "{ $Duration: 1e3, x: -4, $Zoom: 11, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out T",
+    "transition": "{ $Duration: 1e3, y: 4, $Zoom: 11, $SlideOut: true, $Easing: { $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out B",
+    "transition": "{ $Duration: 1e3, y: -4, $Zoom: 11, $SlideOut: true, $Easing: { $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out TL",
+    "transition": "{ $Duration: 1e3, x: 4, y: 4, $Zoom: 11, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out TR",
+    "transition": "{ $Duration: 1e3, x: -4, y: 4, $Zoom: 11, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out BL",
+    "transition": "{ $Duration: 1e3, x: 4, y: -4, $Zoom: 11, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom+ out BR",
+    "transition": "{ $Duration: 1e3, x: -4, y: -4, $Zoom: 11, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in",
+    "transition": "{ $Duration: 1200, $Zoom: 1, $Easing: { $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in L",
+    "transition": "{ $Duration: 1200, x: .6, $Zoom: 1, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in R",
+    "transition": "{ $Duration: 1200, x: -.6, $Zoom: 1, $Easing: { $Left: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in T",
+    "transition": "{ $Duration: 1200, y: .6, $Zoom: 1, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in B",
+    "transition": "{ $Duration: 1200, y: -.6, $Zoom: 1, $Easing: { $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in TL",
+    "transition": "{ $Duration: 1200, x: .6, y: .6, $Zoom: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in TR",
+    "transition": "{ $Duration: 1200, x: -.6, y: .6, $Zoom: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in BL",
+    "transition": "{ $Duration: 1200, x: .6, y: -.6, $Zoom: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- in BR",
+    "transition": "{ $Duration: 1200, x: -.6, y: -.6, $Zoom: 1, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Zoom: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out",
+    "transition": "{ $Duration: 1e3, $Zoom: 1, $SlideOut: true, $Easing: { $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out L",
+    "transition": "{ $Duration: 1e3, x: 1, $Zoom: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out R",
+    "transition": "{ $Duration: 1e3, x: -1, $Zoom: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out T",
+    "transition": "{ $Duration: 1e3, y: 1, $Zoom: 1, $SlideOut: true, $Easing: { $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out B",
+    "transition": "{ $Duration: 1e3, y: -1, $Zoom: 1, $SlideOut: true, $Easing: { $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out TL",
+    "transition": "{ $Duration: 1e3, x: 1, y: 1, $Zoom: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out TR",
+    "transition": "{ $Duration: 1e3, x: -1, y: 1, $Zoom: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out BL",
+    "transition": "{ $Duration: 1e3, x: 1, y: -1, $Zoom: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 3,
+    "name": "Zoom- out BR",
+    "transition": "{ $Duration: 1e3, x: -1, y: -1, $Zoom: 1, $SlideOut: true, $Easing: { $Left: $Jease$.$InExpo, $Top: $Jease$.$InExpo, $Zoom: $Jease$.$InExpo, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Stairs",
+    "transition": "{ $Duration: 500, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 2049, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Swirl",
+    "transition": "{ $Duration: 500, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Rectangle Cross",
+    "transition": "{ $Duration: 500, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Rectangle",
+    "transition": "{ $Duration: 500, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Cross",
+    "transition": "{ $Duration: 500, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCross, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Circle",
+    "transition": "{ $Duration: 500, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 2049 }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse ZigZag",
+    "transition": "{ $Duration: 500, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 4,
+    "name": "Collapse Random",
+    "transition": "{ $Duration: 500, $Delay: 40, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $SlideOut: true, $Easing: $Jease$.$OutQuad }"
+  },
+  {
+    "group": 5,
+    "name": "Expand Stairs",
+    "transition": "{ $Duration: 500, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 2050, $Easing: { $Clip: $Jease$.$InSine, $Fade: $Jease$.$Swing } }"
+  },
+  {
+    "group": 5,
+    "name": "Expand Swirl",
+    "transition": "{ $Duration: 500, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Easing: { $Clip: $Jease$.$InSine, $Fade: $Jease$.$Swing } }"
+  },
+  {
+    "group": 5,
+    "name": "Expand Rectangle Cross",
+    "transition": "{ $Duration: 500, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Easing: { $Clip: $Jease$.$InSine, $Fade: $Jease$.$Swing } }"
+  },
+  {
+    "group": 5,
+    "name": "Expand Rectangle",
+    "transition": "{ $Duration: 500, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Easing: { $Clip: $Jease$.$InSine, $Fade: $Jease$.$Swing } }"
+  },
+  {
+    "group": 5,
+    "name": "Expand Cross",
+    "transition": "{ $Duration: 500, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Formation: $JssorSlideshowFormations$.$FormationCross, $Easing: { $Clip: $Jease$.$InSine, $Fade: $Jease$.$Swing } }"
+  },
+  {
+    "group": 5,
+    "name": "Expand ZigZag",
+    "transition": "{ $Duration: 500, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Clip: $Jease$.$InSine, $Fade: $Jease$.$Swing } }"
+  },
+  {
+    "group": 5,
+    "name": "Expand Random",
+    "transition": "{ $Duration: 500, $Delay: 40, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $Easing: $Jease$.$InSine }"
+  },
+  {
+    "group": 6,
+    "name": "Float Right Random",
+    "transition": "{ $Duration: 500, x: -1, $Delay: 40, $Cols: 10, $Rows: 5, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float up Random",
+    "transition": "{ $Duration: 500, y: 1, $Delay: 40, $Cols: 10, $Rows: 5, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float up Random with Chess",
+    "transition": "{ $Duration: 500, x: 1, y: -1, $Delay: 40, $Cols: 10, $Rows: 5, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float Right ZigZag",
+    "transition": "{ $Duration: 600, x: -1, $Delay: 12, $Cols: 10, $Rows: 5, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 513, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float up ZigZag",
+    "transition": "{ $Duration: 600, y: 1, $Delay: 12, $Cols: 10, $Rows: 5, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 264, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float up ZigZag with Chess",
+    "transition": "{ $Duration: 600, x: -1, y: -1, $Delay: 12, $Cols: 10, $Rows: 5, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 1028, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float Right Swirl",
+    "transition": "{ $Duration: 600, x: -1, $Delay: 12, $Cols: 10, $Rows: 5, $SlideOut: true, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 513, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float up Swirl",
+    "transition": "{ $Duration: 600, y: 1, $Delay: 12, $Cols: 10, $Rows: 5, $SlideOut: true, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 2049, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 6,
+    "name": "Float up Swirl with Chess",
+    "transition": "{ $Duration: 600, x: 1, y: 1, $Delay: 12, $Cols: 10, $Rows: 5, $SlideOut: true, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 513, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly Right Random",
+    "transition": "{ $Duration: 500, x: 1, $Delay: 40, $Cols: 10, $Rows: 5, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly up Random",
+    "transition": "{ $Duration: 500, y: -1, $Delay: 40, $Cols: 10, $Rows: 5, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly up Random with Chess",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 40, $Cols: 10, $Rows: 5, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly Right ZigZag",
+    "transition": "{ $Duration: 600, x: 1, $Delay: 12, $Cols: 10, $Rows: 5, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 514, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly up ZigZag",
+    "transition": "{ $Duration: 600, y: -1, $Delay: 12, $Cols: 10, $Rows: 5, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly up ZigZag with Chess",
+    "transition": "{ $Duration: 600, x: 1, y: 1, $Delay: 12, $Cols: 10, $Rows: 5, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly Right Swirl",
+    "transition": "{ $Duration: 600, x: 1, $Delay: 12, $Cols: 10, $Rows: 5, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 513, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly up Swirl",
+    "transition": "{ $Duration: 600, y: -1, $Delay: 12, $Cols: 10, $Rows: 5, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 2049, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 7,
+    "name": "Fly up Swirl with Chess",
+    "transition": "{ $Duration: 600, x: -1, y: -1, $Delay: 12, $Cols: 10, $Rows: 5, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 513, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Dominoes Stripe",
+    "transition": "{ $Duration: 1600, y: -1, $Delay: 40, $Cols: 24, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: $Jease$.$OutJump, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 8,
+    "name": "Extrude out Stripe",
+    "transition": "{ $Duration: 1e3, x: -.2, $Delay: 20, $Cols: 16, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 260, $Easing: { $Left: $Jease$.$InOutExpo, $Opacity: $Jease$.$InOutQuad }, $Opacity: 2, $Outside: true, $Round: { $Top: .5 } }"
+  },
+  {
+    "group": 8,
+    "name": "Extrude in Stripe",
+    "transition": "{ $Duration: 1e3, x: .2, $Delay: 20, $Cols: 16, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InOutExpo, $Opacity: $Jease$.$InOutQuad }, $Opacity: 2, $Outside: true, $Round: { $Top: .5 } }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Blind Stripe",
+    "transition": "{ $Duration: 400, $Delay: 50, $Rows: 7, $Clip: 4, $Formation: $JssorSlideshowFormations$.$FormationStraight }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Blind Stripe",
+    "transition": "{ $Duration: 400, $Delay: 50, $Cols: 10, $Clip: 2, $Formation: $JssorSlideshowFormations$.$FormationStraight }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Stripe",
+    "transition": "{ $Duration: 400, $Rows: 6, $Clip: 4 }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Stripe",
+    "transition": "{ $Duration: 400, $Cols: 8, $Clip: 1 }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Moving Stripe",
+    "transition": "{ $Duration: 400, $Rows: 6, $Clip: 4, $Move: true }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Moving Stripe",
+    "transition": "{ $Duration: 400, $Cols: 8, $Clip: 1, $Move: true }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Fade Stripe",
+    "transition": "{ $Duration: 400, $Delay: 40, $Rows: 10, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Opacity: 2, $Assembly: 260 }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Fade Stripe Reverse",
+    "transition": "{ $Duration: 400, $Delay: 40, $Rows: 10, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Fade Stripe",
+    "transition": "{ $Duration: 400, $Delay: 40, $Cols: 16, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Opacity: 2, $Assembly: 260 }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Fade Stripe Reverse",
+    "transition": "{ $Duration: 400, $Delay: 40, $Cols: 16, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Fly Stripe",
+    "transition": "{ $Duration: 600, x: 1, $Delay: 50, $Rows: 8, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 513, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Fly Stripe",
+    "transition": "{ $Duration: 600, y: 1, $Delay: 50, $Cols: 12, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 513, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Chess Stripe",
+    "transition": "{ $Duration: 600, x: -1, $Rows: 10, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationStraight, $ChessMode: { $Row: 3 }, $Easing: $Jease$.$InCubic }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Chess Stripe",
+    "transition": "{ $Duration: 600, y: -1, $Cols: 12, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationStraight, $ChessMode: { $Column: 12 }, $Easing: $Jease$.$InCubic }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Random Fade Stripe",
+    "transition": "{ $Duration: 600, $Delay: 40, $Rows: 10, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Random Fade Stripe",
+    "transition": "{ $Duration: 600, $Delay: 40, $Cols: 16, $Opacity: 2 }"
+  },
+  {
+    "group": 8,
+    "name": "Horizontal Bounce Stripe",
+    "transition": "{ $Duration: 600, $Delay: 40, $Rows: 10, $Clip: 8, $Move: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 264, $Easing: $Jease$.$InBounce }"
+  },
+  {
+    "group": 8,
+    "name": "Vertical Bounce Stripe",
+    "transition": "{ $Duration: 600, $Delay: 40, $Cols: 16, $Clip: 1, $Move: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 264, $Easing: $Jease$.$InBounce }"
+  },
+  {
+    "group": 9,
+    "name": "Parabola Swirl in",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 50, $Cols: 10, $Rows: 5, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 264, $Easing: { $Top: $Jease$.$InQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 9,
+    "name": "Parabola Swirl out",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 50, $Cols: 10, $Rows: 5, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 264, $Easing: { $Top: $Jease$.$InQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 9,
+    "name": "Parabola ZigZag in",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 50, $Cols: 10, $Rows: 5, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Row: 3 }, $Easing: { $Top: $Jease$.$InQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 9,
+    "name": "Parabola ZigZag out",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 50, $Cols: 10, $Rows: 5, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Row: 3 }, $Easing: { $Top: $Jease$.$InQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 9,
+    "name": "Parabola Stairs in",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 50, $Cols: 10, $Rows: 5, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InQuart, $Top: $Jease$.$InQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 9,
+    "name": "Parabola Stairs out",
+    "transition": "{ $Duration: 600, x: -1, y: 1, $Delay: 50, $Cols: 10, $Rows: 5, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InQuart, $Top: $Jease$.$InQuart, $Opacity: $Jease$.$Linear }, $Opacity: 2 }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside in Stairs",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 16, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside in ZigZag",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside in Swirl",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside in Random",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 40, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside in Random Chess",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 40, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $ChessMode: { $Column: 3, $Row: 3 }, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside out ZigZag",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 10,
+    "name": "Swing Inside out Swirl",
+    "transition": "{ $Duration: 1200, x: .2, y: -.1, $Delay: 12, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: 1.3, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside in Stairs",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside in Swirl",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside in ZigZag",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside in Random",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside in Random Chess",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside out Stairs",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.1, .9], $Top: [.1, .9] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside out Swirl",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.1, .9], $Top: [.1, .9] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside out ZigZag",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.1, .9], $Top: [.1, .9] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside out Random",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 11,
+    "name": "Dodge Dance Inside out Random Chess",
+    "transition": "{ $Duration: 1500, x: .3, y: -.3, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside in Stairs",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside in Swirl",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside in ZigZag",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside in Random",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$Linear }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside in Random Chess",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$Linear }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside out Stairs",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside out Swirl",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside out ZigZag",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$OutQuad }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside out Random",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$Linear }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 12,
+    "name": "Dodge Pet Inside out Random Chess",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InWave, $Top: $Jease$.$InWave, $Clip: $Jease$.$Linear }, $Round: { $Left: .8, $Top: 2.5 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out Stairs",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out Swirl",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out ZigZag",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out Random",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 40, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out Random Chess",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 40, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $SlideOut: true, $Assembly: 260, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in Stairs",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in Swirl",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in ZigZag",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in Random",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Assembly: 260, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in Random Chess",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 80, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8] }, $Assembly: 260, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Clip: $Jease$.$Swing }, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in TL",
+    "transition": "{ $Duration: 1200, x: .3, y: .3, $Delay: 60, $Zoom: 1, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in TR",
+    "transition": "{ $Duration: 1200, x: -.3, y: .3, $Delay: 60, $Zoom: 1, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in BL",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 60, $Zoom: 1, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside in BR",
+    "transition": "{ $Duration: 1200, x: -.3, y: -.3, $Delay: 60, $Zoom: 1, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out TL",
+    "transition": "{ $Duration: 1200, x: .3, y: .3, $Delay: 60, $Zoom: 1, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out TR",
+    "transition": "{ $Duration: 1200, x: -.3, y: .3, $Delay: 60, $Zoom: 1, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out BL",
+    "transition": "{ $Duration: 1200, x: .3, y: -.3, $Delay: 60, $Zoom: 1, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 13,
+    "name": "Dodge Inside out BR",
+    "transition": "{ $Duration: 1200, x: -.3, y: -.3, $Delay: 60, $Zoom: 1, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Left: $Jease$.$InJump, $Top: $Jease$.$InJump, $Opacity: $Jease$.$Linear, $Zoom: $Jease$.$Swing }, $Opacity: 2, $Round: { $Left: .8, $Top: .8 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside in",
+    "transition": "{ $Duration: 1200, x: 1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7] }, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InOutExpo, $Clip: $Jease$.$InOutQuad }, $Round: { $Top: .8 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside in Wind",
+    "transition": "{ $Duration: 1200, x: 1, y: .2, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 2050, $Easing: { $Left: $Jease$.$InOutSine, $Top: $Jease$.$OutWave, $Clip: $Jease$.$InOutQuad }, $Round: { $Top: 1.3 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside in Swirl",
+    "transition": "{ $Duration: 1200, x: 1, y: .2, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 2050, $Easing: { $Left: $Jease$.$InOutSine, $Top: $Jease$.$OutWave, $Clip: $Jease$.$InOutQuad }, $Round: { $Top: 1.3 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside in Column",
+    "transition": "{ $Duration: 1500, x: .2, y: -.1, $Delay: 150, $Cols: 12, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Round: { $Top: 2 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside out",
+    "transition": "{ $Duration: 1200, x: 1, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$InOutExpo, $Clip: $Jease$.$InOutQuad }, $Round: { $Top: .8 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside out Wind",
+    "transition": "{ $Duration: 1200, x: 1, y: .2, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 2050, $Easing: { $Left: $Jease$.$InOutSine, $Top: $Jease$.$OutWave, $Clip: $Jease$.$InOutQuad }, $Round: { $Top: 1.3 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside out Swirl",
+    "transition": "{ $Duration: 1200, x: 1, y: .2, $Delay: 20, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Left: [.3, .7], $Top: [.3, .7] }, $SlideOut: true, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 2050, $Easing: { $Left: $Jease$.$InOutSine, $Top: $Jease$.$OutWave, $Clip: $Jease$.$InOutQuad }, $Round: { $Top: 1.3 } }"
+  },
+  {
+    "group": 14,
+    "name": "Flutter Inside out Column",
+    "transition": "{ $Duration: 1800, x: .2, y: -.1, $Delay: 150, $Cols: 12, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Opacity: 2, $Round: { $Top: 2 } }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Chess in",
+    "transition": "{ $Duration: 1200, y: -1, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Top: [.5, .5], $Clip: [0, .5] }, $Formation: $JssorSlideshowFormations$.$FormationStraight, $ChessMode: { $Column: 12 }, $ScaleClip: .5 }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Chess out",
+    "transition": "{ $Duration: 1200, y: -1, $Cols: 10, $Rows: 5, $Opacity: 2, $Clip: 15, $During: { $Top: [.5, .5], $Clip: [0, .5] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $ChessMode: { $Column: 12 }, $ScaleClip: .5 }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Oblique Chess in",
+    "transition": "{ $Duration: 1200, x: -1, y: -1, $Cols: 6, $Rows: 6, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8], $Clip: [0, .2] }, $Formation: $JssorSlideshowFormations$.$FormationStraight, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Clip: $Jease$.$Swing }, $ScaleClip: .5 }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Oblique Chess out",
+    "transition": "{ $Duration: 1200, x: -1, y: -1, $Cols: 6, $Rows: 6, $Opacity: 2, $Clip: 15, $During: { $Left: [.2, .8], $Top: [.2, .8], $Clip: [0, .2] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $ChessMode: { $Column: 15, $Row: 15 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Clip: $Jease$.$Swing }, $ScaleClip: .5 }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Wave in",
+    "transition": "{ $Duration: 4e3, x: -1, y: .45, $Delay: 80, $Cols: 12, $Opacity: 2, $Clip: 15, $During: { $Left: [.35, .65], $Top: [.35, .65], $Clip: [0, .15] }, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 2049, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Clip: $Jease$.$OutQuad }, $ScaleClip: .7, $Round: { $Top: 4 } }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Wave out",
+    "transition": "{ $Duration: 4e3, x: -1, y: .45, $Delay: 80, $Cols: 12, $Opacity: 2, $Clip: 15, $During: { $Left: [.35, .65], $Top: [.35, .65], $Clip: [0, .15] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 2049, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Clip: $Jease$.$OutQuad }, $ScaleClip: .7, $Round: { $Top: 4 } }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Jump in",
+    "transition": "{ $Duration: 4e3, x: -1, y: .7, $Delay: 80, $Cols: 12, $Opacity: 2, $Clip: 11, $Move: true, $During: { $Left: [.35, .65], $Top: [.35, .65], $Clip: [0, .1] }, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 2049, $Easing: { $Left: $Jease$.$OutQuad, $Top: $Jease$.$OutJump, $Clip: $Jease$.$OutQuad }, $ScaleClip: .7, $Round: { $Top: 4 } }"
+  },
+  {
+    "group": 15,
+    "name": "Clip & Jump out",
+    "transition": "{ $Duration: 4e3, x: -1, y: .7, $Delay: 80, $Cols: 12, $Opacity: 2, $Clip: 11, $Move: true, $During: { $Left: [.35, .65], $Top: [.35, .65], $Clip: [0, .1] }, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 2049, $Easing: { $Left: $Jease$.$OutQuad, $Top: $Jease$.$OutJump, $Clip: $Jease$.$OutQuad }, $ScaleClip: .7, $Round: { $Top: 4 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out",
+    "transition": "{ $Duration: 1500, y: -.5, $Delay: 60, $Cols: 16, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out Eagle",
+    "transition": "{ $Duration: 1200, y: -.5, $Delay: 30, $Cols: 15, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Easing: { $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out Swirl",
+    "transition": "{ $Duration: 1200, x: -1, y: .5, $Delay: 30, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out ZigZag",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out Rectangle",
+    "transition": "{ $Duration: 1500, x: 1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out Circle",
+    "transition": "{ $Duration: 1500, x: 1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out Cross",
+    "transition": "{ $Duration: 1500, x: 1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 16,
+    "name": "Wave out Rectangle Cross",
+    "transition": "{ $Duration: 1500, x: 1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in",
+    "transition": "{ $Duration: 1500, y: -.5, $Delay: 60, $Cols: 12, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationStraightStairs, $Easing: { $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in Eagle",
+    "transition": "{ $Duration: 1200, y: -.5, $Delay: 30, $Cols: 15, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Easing: { $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in Swirl",
+    "transition": "{ $Duration: 1200, x: -1, y: .5, $Delay: 30, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in ZigZag",
+    "transition": "{ $Duration: 1500, x: 1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in Rectangle",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in Circle",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in Cross",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 17,
+    "name": "Wave in Rectangle Cross",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 60, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InWave, $Opacity: $Jease$.$Linear }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 18,
+    "name": "Jump out Straight",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 100, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 513, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 18,
+    "name": "Jump out Swirl",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 100, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 18,
+    "name": "Jump out ZigZag",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 100, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 18,
+    "name": "Jump out Rectangle",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 800, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 18,
+    "name": "Jump out Circle",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 100, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 18,
+    "name": "Jump out Rectangle Cross",
+    "transition": "{ $Duration: 1500, x: -1, y: .5, $Delay: 100, $Cols: 10, $Rows: 5, $Opacity: 2, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Linear, $Top: $Jease$.$OutJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 19,
+    "name": "Jump in Straight",
+    "transition": "{ $Duration: 1500, x: -1, y: -.5, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Assembly: 513, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 19,
+    "name": "Jump in Swirl",
+    "transition": "{ $Duration: 1500, x: -1, y: -.5, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationSwirl, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 19,
+    "name": "Jump in ZigZag",
+    "transition": "{ $Duration: 1500, x: -1, y: -.5, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationZigZag, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 19,
+    "name": "Jump in Rectangle",
+    "transition": "{ $Duration: 1500, x: -1, y: -.5, $Delay: 800, $Cols: 10, $Rows: 5, $Opacity: 2, $Reverse: true, $Formation: $JssorSlideshowFormations$.$FormationRectangle, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 19,
+    "name": "Jump in Circle",
+    "transition": "{ $Duration: 1500, x: -1, y: -.5, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationCircle, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 19,
+    "name": "Jump in Rectangle Cross",
+    "transition": "{ $Duration: 1500, x: -1, y: -.5, $Delay: 50, $Cols: 10, $Rows: 5, $Opacity: 2, $Formation: $JssorSlideshowFormations$.$FormationRectangleCross, $Assembly: 260, $Easing: { $Left: $Jease$.$Swing, $Top: $Jease$.$InJump }, $Round: { $Top: 1.5 } }"
+  },
+  {
+    "group": 20,
+    "name": "Slide Down",
+    "transition": "{ $Duration: 500, y: 1, $Opacity: 2, $Easing: $Jease$.$InQuad }"
+  },
+  {
+    "group": 20,
+    "name": "Slide Right",
+    "transition": "{ $Duration: 400, x: 1, $Opacity: 2, $Easing: $Jease$.$InQuad }"
+  },
+  {
+    "group": 20,
+    "name": "Bounce Down",
+    "transition": "{ $Duration: 1e3, y: 1, $Opacity: 2, $Easing: $Jease$.$InBounce }"
+  },
+  {
+    "group": 20,
+    "name": "Bounce Right",
+    "transition": "{ $Duration: 1e3, x: 1, $Opacity: 2, $Easing: $Jease$.$InBounce }"
+  }
+]

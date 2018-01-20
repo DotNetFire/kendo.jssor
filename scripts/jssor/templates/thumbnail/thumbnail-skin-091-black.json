@@ -1,0 +1,25 @@
+﻿{
+  "id": "jssort091",
+  "cssClass": "#= id #-#= thumbnailNavigation.id #",
+  "name": "thumbnail skin 091 black",
+  "note": "",
+  "css": [
+    ".#= id #-#= thumbnailNavigation.id # { color:\\#fff;overflow:hidden;cursor:default; }",
+    ".#= id #-#= thumbnailNavigation.id # .p { position:absolute;top:0;left:0;width:100%;height:#= thumbnailNavigation.itemHeight #px; }",
+    ".#= id #-#= thumbnailNavigation.id # .t { position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:#= thumbnailNavigation.lineHeight #px;font-size:#= thumbnailNavigation.fontSize #px;padding-left:10px;box-sizing:border-box; }"
+  ],
+  "show": 2,
+  "autoCenter": 1,
+  "loop": true,
+  "height": 50,
+  "width": null,
+  "itemWidth": null,
+  "itemHeight": 50,
+  "positionScale": 0.75,
+  "noDrag": true,
+  "bgColor": "rgba(0,0,0,.5)",
+  "orientation": 2,
+  "fontSize": 16,
+  "lineHeight": 50,
+  "itemHtml": "<div u='thumb'>{1}</div>"
+}

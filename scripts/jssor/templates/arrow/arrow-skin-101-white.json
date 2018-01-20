@@ -1,0 +1,31 @@
+﻿{
+  "id": "jssora101",
+  "name": "arrow skin 101 white",
+  "note": "",
+  "show": 2,
+  "itemWidth": 50,
+  "itemHeight": 50,
+  "itemScale": 0.75,
+  "positionScale": 0.75,
+  "autoCenter": 2,
+  "css": [
+    ".#= id #-#= arrowNavigation.id # {display:block;position:absolute;opacity:.8;cursor:pointer;}",
+    ".#= id #-#= arrowNavigation.id # .c {fill:\\#fff;fill-opacity:0.7;}",
+    ".#= id #-#= arrowNavigation.id # .a {fill:\\#333;}",
+    ".#= id #-#= arrowNavigation.id #:hover {opacity:1;}",
+    ".#= id #-#= arrowNavigation.id #.#= id #-#= arrowNavigation.id #dn {opacity:.6;}",
+    ".#= id #-#= arrowNavigation.id #.{#= id #-#= arrowNavigation.id #ds {opacity:.3;pointer-events:none;}"
+  ],
+  "leftArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><circle class='c' cx='8000' cy='8000' r='6080'/><polygon class='a' points='8789.5,4902.8 8789.5,5846.4 6801.7,8000 8789.5,10153.6 8789.5,11097.2 5930.5,8000 '/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 165
+  },
+  "rightArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><circle class='c' cx='8000' cy='8000' r='6080'/><polygon class='a' points='7210.5,4902.8 7210.5,5846.4 9198.3,8000 7210.5,10153.6 7210.5,11097.2 10069.5,8000 '/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 165
+  }
+}

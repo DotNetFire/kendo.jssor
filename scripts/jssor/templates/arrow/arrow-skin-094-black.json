@@ -1,0 +1,31 @@
+﻿{
+  "id": "jssora094",
+  "name": "arrow skin 094 black",
+  "note": "",
+  "show": 2,
+  "itemWidth": 50,
+  "itemHeight": 50,
+  "itemScale": 0.75,
+  "positionScale": 0.75,
+  "autoCenter": 2,
+  "css": [
+    ".#= id #-#= arrowNavigation.id # {display:block;position:absolute;cursor:pointer;}",
+    ".#= id #-#= arrowNavigation.id # .c {fill:none;stroke:\\#000;stroke-width:400;stroke-miterlimit:10;}",
+    ".#= id #-#= arrowNavigation.id # .a {fill:none;stroke:\\#000;stroke-width:400;stroke-miterlimit:10;}",
+    ".#= id #-#= arrowNavigation.id #:hover {opacity:.8;}",
+    ".#= id #-#= arrowNavigation.id #.#= id #-#= arrowNavigation.id #dn {opacity:.6;}",
+    ".#= id #-#= arrowNavigation.id #.{#= id #-#= arrowNavigation.id #ds {opacity:.3;pointer-events:none;}"
+  ],
+  "leftArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><circle class='c' cx='8000' cy='8000' r='5920'/><polyline class='a' points='7777.8,6080 5857.8,8000 7777.8,9920 '/><line class='a' x1='10142.2' y1='8000' x2='5857.8' y2='8000'/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 123
+  },
+  "rightArrow": {
+    "cssClass": "#= id #-#= arrowNavigation.id #",
+    "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><circle class='c' cx='8000' cy='8000' r='5920'/><polyline class='a' points='8222.2,6080 10142.2,8000 8222.2,9920 '/><line class='a' x1='5857.8' y1='8000' x2='10142.2' y2='8000'/></svg>",
+    "horizontalOffset": 30,
+    "verticalOffset": 123
+  }
+}

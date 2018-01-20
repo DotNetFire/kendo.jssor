@@ -1,0 +1,26 @@
+﻿{
+  "id": "jssorb072",
+  "cssClass": "#= id #-#= bulletNavigation.id #",
+  "name": "bullet skin 072 black",
+  "note": "",
+  "css": [
+    ".#= id #-#= bulletNavigation.id # .i {position:absolute;color:\\#000;font-family:'Helvetica neue',Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;z-index:0;}",
+    ".#= id #-#= bulletNavigation.id # .i .b  {fill:\\#fff;opacity:.3;}",
+    ".#= id #-#= bulletNavigation.id # .i:hover {opacity:.7;}",
+    ".#= id #-#= bulletNavigation.id # .iav {color:\\#fff;}",
+    ".#= id #-#= bulletNavigation.id # .iav .b {fill:\\#000;opacity:.5;}",
+    ".#= id #-#= bulletNavigation.id # .i.idn {opacity:.3;}"
+  ],
+  "show": 2,
+  "itemWidth": 24,
+  "itemHeight": 24,
+  "horizontalOffset": 12,
+  "verticalOffset": 12,
+  "autoCenter": 1,
+  "itemScale": 0.5,
+  "positionScale": 0.75,
+  "orientation": 1,
+  "fontSize": 12,
+  "lineHeight": 24,
+  "svg": "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;'><circle class='b' cx='8000' cy='8000' r='6666.7' /></svg><div data-u='numbertemplate' class='n'></div>"
+}
