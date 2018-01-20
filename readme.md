@@ -5,6 +5,16 @@ Jssor Slider for Kendo UI
 ## Demo
 [http://kendo.jssor.dotnetfire.net/](http://kendo.jssor.dotnetfire.net/)
 
+## Features
+
+Feature description in progress...
+
+## ToDos
+
+- [ ] Implementation of Jssor events
+- [ ] Implementation of slide layers and animations
+- [ ] Write Unit Tests
+
 ## License
 
 ### Commercial license
