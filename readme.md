@@ -2,11 +2,14 @@
 
 Jssor Slider for Kendo UI
 
+## Demo
+[http://kendo.jssor.dotnetfire.net/](http://kendo.jssor.dotnetfire.net/)
+
 ## License
 
 ### Commercial license
 
-If you want to use kendo.jssor to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. To purchase a kendo.jssor Commercial License send an email to mailto:kendojssor@eiselt.com.
+If you want to use kendo.jssor to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. To purchase a kendo.jssor Commercial License send an email to [kendojssor@eiselt.com](mailto:kendojssor@eiselt.com).
 
 ### Open source license
 
@@ -14,6 +17,13 @@ If you are creating an open source application under a license compatible with t
 
 ## Usage
 Documentation in progress...
+
+### Header:
+``` html
+    <script type="text/javascript" src="scripts/jssor/jssor.slider.min.js"></script>
+    <script type="text/javascript" src="scripts/kendo/kendo.ui.core.min.js"></script>
+    <script type="text/javascript" src="scripts/jssor/kendo.jssor.all.min.js"></script>
+```
 
 ### JQuery Syntax
 #### Html:
