@@ -9,6 +9,11 @@ Jssor Slider for Kendo UI
 
 Feature description in progress...
 
+| Feature | Status | Notes |
+| :----- | :---: | :----------- |
+| Jssor typescript definition | :heavy_check_mark: | This project contains a typescript definition for Jssor slider. The [Definition file](typings/jssor/index.d.ts) is located in the folder [typings/jssor/](typings/jssor/). The definitions for the Jssor Event methods are still missing. Please write an issue for further missing definitions... |
+| Typescript | :heavy_check_mark: | kendo.jssor ist writen in typescript. The typescript files are located in folder [typings/](typings/). |
+
 ## Missing Features
 
 - [ ] Implementation of Jssor events
