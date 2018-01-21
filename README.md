@@ -2,7 +2,7 @@
 
 **Jssor Image Slider for Kendo UI Framework**
 
-kendo.jssor is a custom Kendo widget to render slideshows / sliders /galleries or carousels with Jssor slider. The project was realized in Typescript, source code is included.
+kendo.jssor is a custom Kendo widget to render slideshows / sliders /galleries or carousels with Jssor slider. The project was realized in Typescript, source code is included. In contrast to the static design of the Jssor slider kendo.jssor allows the dynamic binding of images and slider options. Please note that the Jssor slider does not provide any methods or mechanisms for dynamically adding slides or changing options. For this reason, the Jssor control is destroyed and rebuilt with every change.
 
 ## Demo
 [http://kendo.jssor.dotnetfire.net/](http://kendo.jssor.dotnetfire.net/)
