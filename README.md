@@ -14,7 +14,7 @@ Feature description in progress...
 | Feature | Status | Notes |
 | :----- | :---: | :----------- |
 | Jssor typescript definition | :heavy_check_mark: | This project contains a typescript definition file for Jssor slider. The [Definition file](typings/jssor/index.d.ts) is located in the folder [typings/jssor/](typings/jssor/). Definitions for the Jssor event methods are still missing. Please write an issue for further missing definitions... |
-| Typescript | :heavy_check_mark: | kendo.jssor ist writen in typescript. The typescript files are located in folder [typings/](typings/). |
+| Typescript | :heavy_check_mark: | kendo.jssor ist writen in typescript. The typescript source files are located in folder [typings/](typings/). |
 | ... | | |
 
 ## Missing Features
