@@ -1,3 +1,5 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JWFGDHPAKW6NL)
+
 # kendo.jssor
 
 **Jssor Image Slider for Kendo UI Framework**
@@ -37,7 +39,13 @@ Legend:
 
 ### Commercial license
 
-If you want to use kendo.jssor to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. To purchase a kendo.jssor Commercial License send an email to [kendojssor@eiselt.com](mailto:kendojssor@eiselt.com).
+If you want to use kendo.jssor to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. 
+
+There is no fixed license fee. Depending on factors such as time savings, the size of your development team or project revenues, please decide for yourself which license fee you consider to be appropriate. Please use the donate button below to make your payment. 
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JWFGDHPAKW6NL)
+
+For questions send an email to [kendojssor@eiselt.com](mailto:kendojssor@eiselt.com).
 
 ### Open source license
 
@@ -133,3 +141,8 @@ kendo.bind($("#jssorDiv"), viewModel);
 [Jssor Slider](https://www.jssor.com/)<br/>
 [Kendo UI Core](https://github.com/telerik/kendo-ui-core)
 
+## Donate
+
+kendo.jssor is open source, but it costs time and money to write and support it. Financial contributions enable the ongoing open source development of kendo.jssor. If you find this software useful and if you think you saved time, please consider making a donation. It will help me to add additional features and to invest time for documentation and support.
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JWFGDHPAKW6NL)
