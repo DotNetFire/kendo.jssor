@@ -21,8 +21,9 @@ Feature description in progress...
 | Skins | :heavy_check_mark: | Navigation and loading screen skins can be set via widget options. |
 | JSON templates | :heavy_check_mark: | Loading of templates for navigation (arrow, bullet, thumbnail) and loading screen from JSON files (currently only synchronous loading when refreshing the widget). Default settings from the template can be overridden with the widget options. |
 | Events | :heavy_plus_sign: | Currently allows the widget events "change", "dataBinding" and "dataBound". No Jssor events yet (e.g. "$ EVT_CLICK", "$EVT_DRAG_START", ...)  |
+| Documentation | :heavy_plus_sign: | Class and interface documenation for typescript |
 | Slide layers | :o: | At the moment kendo.jssor does not allow slide layers and animations. |
-| Unit Tests | :o: | No unit tests yet ... |
+| Unit Tests | :x: | No unit tests yet ... |
 
 
 Legend:
