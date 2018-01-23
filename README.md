@@ -143,6 +143,6 @@ kendo.bind($("#jssorDiv"), viewModel);
 
 ## Donate
 
-kendo.jssor is open source, but it costs time and money to write and support it. Financial contributions enable the ongoing open source development of kendo.jssor. If you find this software useful and if you think you saved time, please consider making a donation. It will help me to add additional features and to invest time for documentation and support.
+kendo.jssor is open source, but it costs time and money to write and support it. Financial contributions enable the ongoing open source development of kendo.jssor. If you find this software useful and if you think you saved time, please consider making a donation. It will help me to add additional features and to invest time in documentation and support.
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JWFGDHPAKW6NL)
