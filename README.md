@@ -11,10 +11,6 @@ kendo.jssor is a custom Kendo widget to render slideshows / sliders /galleries o
 
 Feature description in progress...
 
-:heavy_check_mark: Implemented features
-
-:x: Features in Progress
-
 | Feature | Status | Notes |
 | :----- | :---: | :----------- |
 | Jssor typescript definition | :heavy_check_mark: | This project contains a typescript definition file for Jssor slider. The [Definition file](typings/jssor/index.d.ts) is located in the folder [typings/jssor/](typings/jssor/). Definitions for the Jssor event methods are still missing. Please write an issue for further missing definitions... |
@@ -24,10 +20,17 @@ Feature description in progress...
 | Slides | :heavy_check_mark: | Binding of image url, thumbnail url, caption, description and content (static / fixed HTML). The field names of the data item can be set by options |
 | Skins | :heavy_check_mark: | Navigation and loading screen skins can be set via widget options. |
 | JSON templates | :heavy_check_mark: | Loading of templates for navigation (arrow, bullet, thumbnail) and loading screen from JSON files (currently only synchronous loading when refreshing the widget). Default settings from the template can be overridden with the widget options. |
-| Events | :x: | Currently allows the widget events change, dataBinding and dataBound. No Jssor events yet (e.g. $ EVT_CLICK, $ EVT_DRAG_START, ...)  |
+| Events | :heavy_plus_sign: | Currently allows the widget events change, dataBinding and dataBound. No Jssor events yet (e.g. $ EVT_CLICK, $ EVT_DRAG_START, ...)  |
 | Slide layers | :x: | At the moment kendo.jssor does not allow slide layers and animations. |
 | Unit Tests | :x: | No unit tests yet ... |
 | ... | | |
+
+Legend:
+
+| Icon | Description | Icon  | Description |
+| :---: | :... |  :---: | :... | 
+| :heavy_check_mark: | Implemented | :heavy_plus_sign: | In progress | 
+| :o: | Planed | :x: | Missing features |
 
 ## License
 
