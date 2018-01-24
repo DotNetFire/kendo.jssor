@@ -137,7 +137,8 @@ var viewModel = kendo.observable({
 kendo.bind($("#jssorDiv"), viewModel);
 ```
 
-###Navigation Template loading
+### Loading navigation templates
+You can load navigation templates from a file and override the default settings.
 
 #### Javascript:
 ``` js
@@ -151,12 +152,14 @@ kendo.bind($("#jssorDiv"), viewModel);
             },
             arrowNavigation: {
                 templateFile: "../scripts/jssor/templates/arrow/arrow-skin-051-white.json", // <== template from file
+                // Override default values:
                 show: kendo.ui.jssor.ShowType.MouseOver, // <== Default is Always
                 "itemWidth": 70, // <== Default is 55
                 "itemHeight": 70 // <== Default is 55
             },
             bulletNavigation: {
-                templateFile: "../scripts/jssor/templates/bullet/bullet-skin-031-black.json",
+                templateFile: "../scripts/jssor/templates/bullet/bullet-skin-031-black.json", // <== template from file
+                // Override default values:
                 itemWidth: 24, // <== Default is 16
                 itemHeight: 24 // <== Default is 16
             }
