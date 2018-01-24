@@ -17,16 +17,16 @@ Feature description in progress...
 | Feature | Status | Notes |
 | :----- | :---: | :----------- |
 | Jssor typescript definition | :heavy_check_mark: | This project contains a typescript definition file for Jssor slider. The [Definition file](typings/jssor/index.d.ts) is located in the folder [typings/jssor/](typings/jssor/). Definitions for the Jssor event methods are still missing. Please write an issue for further missing definitions... |
-| Typescript | :heavy_check_mark: | kendo.jssor ist writen in typescript. The typescript source files are located in folder [typings/](typings/). |
-| Databinding | :heavy_check_mark: |  Local or remote data binding for image data with automatic refresh when the data source changes (add remove image). 
-| MVVM | :heavy_check_mark: | Model View ViewModel (MVVM) databinding. Allows binding of image data and slider options. |
-| Slides | :heavy_check_mark: | Binding of image url, thumbnail url, caption, description and content (static / fixed HTML). The field names of the data item can be set by options |
-| Skins | :heavy_check_mark: | Navigation and loading screen skins can be set via widget options. |
-| JSON templates | :heavy_check_mark: | Loading of templates for navigation (arrow, bullet, thumbnail) and loading screen from JSON files (currently only synchronous loading when refreshing the widget). Default settings from the template can be overridden with the widget options. |
-| Events | :heavy_plus_sign: | Currently allows the widget events "change", "dataBinding" and "dataBound". No Jssor events yet (e.g. "$ EVT_CLICK", "$EVT_DRAG_START", ...)  |
+| Typescript definition | :heavy_check_mark: | kendo.jssor ist writen in typescript. The typescript source files are located in folder [typings/](typings/). |
+| Databinding / Dynamic loading | :heavy_check_mark: |  Local or remote data binding for image data with automatic refresh when the data source changes (add remove image). Allows dynamic slides loading and option changes while slider is running. |
+| MVVM support | :heavy_check_mark: | Model View ViewModel (MVVM) databinding. Allows binding of image data and slider options. |
+| Image slides | :heavy_check_mark: | Binding of image url, thumbnail url, caption, description and content (static / fixed HTML). The field names of the data item can be set by options |
+| Navigation skins | :heavy_check_mark: | Navigation and loading screen skins can be set via widget options. |
+| JSON templates for skins | :heavy_check_mark: | Loading of templates for navigation (arrow, bullet, thumbnail) and loading screen from JSON files (currently only synchronous loading when refreshing the widget). Default settings from the template can be overridden with the widget options. |
+| kendo & Jssor events | :heavy_plus_sign: | Currently allows the widget events "change", "dataBinding" and "dataBound". No Jssor events yet (e.g. "$ EVT_CLICK", "$EVT_DRAG_START", ...)  |
 | Documentation | :heavy_plus_sign: | Class and interface documenation for typescript |
 | Slide layers | :o: | At the moment kendo.jssor does not allow slide layers and animations. |
-| Unit Tests | :x: | No unit tests yet ... |
+| Unit tests | :x: | No unit tests yet ... |
 
 
 Legend:
