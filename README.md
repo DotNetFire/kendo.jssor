@@ -109,7 +109,6 @@ var options = {
 ```
 #### Javascript:
 ``` js
-
 var viewModel = kendo.observable({
     isVisible: true,
     imagedata: [ 
@@ -136,6 +135,33 @@ var viewModel = kendo.observable({
     }
 });
 kendo.bind($("#jssorDiv"), viewModel);
+```
+
+###Navigation Template loading
+
+#### Javascript:
+``` js
+    var jssoroptions = {
+        dataSource: imagedata,
+        autoBind: true,
+        jssor: {
+            container: {
+                width: 980,
+                height: 380
+            },
+            arrowNavigation: {
+                templateFile: "../scripts/jssor/templates/arrow/arrow-skin-051-white.json", // <== template from file
+                show: kendo.ui.jssor.ShowType.MouseOver, // <== Default is Always
+                "itemWidth": 70, // <== Default is 55
+                "itemHeight": 70 // <== Default is 55
+            },
+            bulletNavigation: {
+                templateFile: "../scripts/jssor/templates/bullet/bullet-skin-031-black.json",
+                itemWidth: 24, // <== Default is 16
+                itemHeight: 24 // <== Default is 16
+            }
+        }
+    }
 ```
 
 ## Related
