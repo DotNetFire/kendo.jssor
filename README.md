@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Version-2018.1-green.svg)]()
+[![Version](https://img.shields.io/badge/Version-2018.1-green.svg)](VERSION)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JWFGDHPAKW6NL)
 
 # kendo.jssor
