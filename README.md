@@ -64,6 +64,7 @@ Documentation in progress...
 ```
 
 ### JQuery Syntax
+[Demo](http://kendo.jssor.dotnetfire.net/demos/slides-only-min-options-jquery.html)
 #### Html:
 Your slider-&quot;&lt;div /&gt;&quot; only needs an id...
 ``` html
@@ -88,6 +89,9 @@ $("#jssorDiv").kendoJssor(options);
 ```
     
 ### MVVM
+
+[Demo](http://kendo.jssor.dotnetfire.net/demos/slides-only-min-options-mvvm.html)
+
 #### Html:
 The data role for kendo.jssor is "jssor". Please note that the &quot;&lt;div /&gt;&quot;-element MUST have an id, because the Jssor Slider must be initialized with an element id. Use the "data-bind" attribute to assign imagedata (source: ...) and options (jssor: ...) fields of your ViewModel.
 ``` html
@@ -117,6 +121,8 @@ kendo.bind($("#jssorDiv"), viewModel);
 ### Navigation templates
 
 #### Define with options:
+
+[Demo](http://kendo.jssor.dotnetfire.net/demos/navigation-templates-inline.html)
 
 ``` js
     var jssoroptions = {
@@ -150,6 +156,8 @@ kendo.bind($("#jssorDiv"), viewModel);
 ```
 
 #### Load from URL:
+
+[Demo](http://kendo.jssor.dotnetfire.net/demos/navigation-templates-inline.html)
 
 You can load navigation templates from a file and override the default settings.
 
