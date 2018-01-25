@@ -57,6 +57,7 @@ Documentation in progress...
 
 ### Header:
 ``` html
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/jssor/jssor.slider.min.js"></script>
     <script type="text/javascript" src="scripts/kendo/kendo.ui.core.min.js"></script>
     <script type="text/javascript" src="scripts/jssor/kendo.jssor.all.min.js"></script>
