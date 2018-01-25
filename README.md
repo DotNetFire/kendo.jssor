@@ -71,29 +71,15 @@ Documentation in progress...
 #### Javascript:
 ``` js
 var images = [ 
-    { "image": "images/021.jpg", "thumbnail": "images/021-s200x100.jpg", "caption": "Image 021", "description": "Image 021 description" },
-    { "image": "images/022.jpg", "thumbnail": "images/022-s200x100.jpg", "caption": "Image 022", "description": "Image 022 description" },
-    { "image": "images/023.jpg", "thumbnail": "images/023-s200x100.jpg", "caption": "Image 023", "description": "Image 023 description" } ];
+    { "image": "images/021.jpg" },
+    { "image": "images/022.jpg" },
+    { "image": "images/023.jpg" } ];
 
 var options = {
     dataSource: images,
     autoBind: true,
     jssor: {
-                id: "jssor1",
-                center: true,
-                lazyLoading: true,
-                numImages2Preload: 2,
-                autoPlay: kendo.ui.jssor.AutoPlayType.Yes,
-                autoPlaySteps: 1,
-                loop: kendo.ui.jssor.LoopType.Yes,
-                startSlide: 1,
-                pauseOnHover: kendo.ui.jssor.PauseOnHoverType.PauseForDesktopAndTouch,
-                dragOrientation: kendo.ui.jssor.DragOrientationType.Either,
-                minDragOffsetToSlide: 3,
-                keyboardNavigation: true,
-                keyboardNavigationSteps: 1,
-                container: { width: 980, height: 380 },
-                slideContainer: { x: 0, y: 0 }
+        container: { width: 980, height: 380 },
         }
     };
     $("#jssorDiv").kendoJssor(options);
@@ -113,26 +99,12 @@ var options = {
 var viewModel = kendo.observable({
     isVisible: true,
     imagedata: [ 
-        { "image": "images/021.jpg", "thumbnail": "images/021-s200x100.jpg", "caption": "Image 021", "description": "Image 021 description" },
-        { "image": "images/022.jpg", "thumbnail": "images/022-s200x100.jpg", "caption": "Image 022", "description": "Image 022 description" },
-        { "image": "images/023.jpg", "thumbnail": "images/023-s200x100.jpg", "caption": "Image 023", "description": "Image 023 description" }
+        { "image": "images/021.jpg" },
+        { "image": "images/022.jpg" },
+        { "image": "images/023.jpg" }
     ],
     jssorOptions: {
-        id: "jssor1",
-        center: true,
-        lazyLoading: true,
-        numImages2Preload: 2,
-        autoPlay: kendo.ui.jssor.AutoPlayType.Yes,
-        autoPlaySteps: 1,
-        loop: kendo.ui.jssor.LoopType.Yes,
-        startSlide: 1,
-        pauseOnHover: kendo.ui.jssor.PauseOnHoverType.PauseForDesktopAndTouch,
-        dragOrientation: kendo.ui.jssor.DragOrientationType.Either,
-        minDragOffsetToSlide: 3,
-        keyboardNavigation: true,
-        keyboardNavigationSteps: 1,
-        container: { width: 980, height: 380 },
-        slideContainer: { x: 0, y: 0 }
+        container: { width: 980, height: 380 }
     }
 });
 kendo.bind($("#jssorDiv"), viewModel);
