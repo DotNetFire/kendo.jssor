@@ -137,10 +137,45 @@ var viewModel = kendo.observable({
 kendo.bind($("#jssorDiv"), viewModel);
 ```
 
-### Loading navigation templates
+### Navigation templates
+
+#### Define with options:
+
+``` js
+    var jssoroptions = {
+        dataSource: imagedata,
+        autoBind: true,
+        jssor: {
+            container: { width: 980, height: 380 },
+            bulletNavigation: {
+                id: "jssorb032",
+                cssClass: "#= id #-#= bulletNavigation.id #",
+                name: "bullet skin 032 white",
+                note: "",
+                css: [
+                    ".#= id #-#= bulletNavigation.id # {position:absolute;}",
+                    ".#= id #-#= bulletNavigation.id # .i {position:absolute;cursor:pointer;}",
+                    ".#= id #-#= bulletNavigation.id # .i .b {fill:\\#fff;fill-opacity:0.7;stroke:\\#000;stroke-width:1200;stroke-miterlimit:10;stroke-opacity:0.25;}",
+                    ".#= id #-#= bulletNavigation.id # .i:hover .b {fill:\\#000;fill-opacity:.6;stroke:\\#fff;stroke-opacity:.35;}",
+                    ".#= id #-#= bulletNavigation.id # .iav .b {fill:\\#000;fill-opacity:1;stroke:\\#fff;stroke-opacity:.35;}",
+                    ".#= id #-#= bulletNavigation.id # .i.idn {opacity:.3;}"
+                ],
+                show: kendo.ui.jssor.ShowType.Always,
+                itemWidth: 16, itemHeight: 16,
+                horizontalOffset: 12, verticalOffset: 12,
+                autoCenter: kendo.ui.jssor.AutocenterType.Horizontal,
+                itemScale: 0.5, positionScale: 0.75,
+                orientation: kendo.ui.jssor.OrientationType.Horizontal,
+                svg: "<svg viewBox='0 0 16000 16000' style='position:absolute;top:0;left:0;width:100%;height:100%;'><circle class='b' cx='8000' cy='8000' r='5800' /></svg>"
+            }
+        }
+    }
+```
+
+#### Load from URL:
+
 You can load navigation templates from a file and override the default settings.
 
-#### Javascript:
 ``` js
     var jssoroptions = {
         dataSource: imagedata,
