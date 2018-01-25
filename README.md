@@ -82,7 +82,7 @@ var options = {
         container: { width: 980, height: 380 },
         }
     };
-    $("#jssorDiv").kendoJssor(options);
+$("#jssorDiv").kendoJssor(options);
 ```
     
 ### MVVM
