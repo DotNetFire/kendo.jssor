@@ -37,7 +37,8 @@ var kendo;
     })(ui = kendo.ui || (kendo.ui = {}));
 })(kendo || (kendo = {}));
 //# sourceMappingURL=kendo.jssor.transitions.js.map
-/// <reference path="kendo.jssor.transitions.ts" />
+/// <reference path="./jquery/jquery.d.ts" />
+/// <reference path="./kendo.jssor.transitions.ts" />
 "use strict";
 var kendo;
 (function (kendo) {
@@ -337,6 +338,7 @@ var kendo;
 /// <reference path="kendo/kendo.missing.d.ts" />
 /// <reference path="jssor/index.d.ts" />
 /// <reference path="kendo.jssor.options.ts" />
+//Hell
 "use strict";
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -359,6 +361,11 @@ var kendo;
             var DATABINDING = "dataBinding", DATABOUND = "dataBound", CHANGE = "change", PROGRESS = 'progress', ERROR = 'error', 
             // ReSharper disable once UnusedLocals
             NS = '.kendoJssor';
+            /**
+             *
+             * @param {Element} element
+             * @param {IKendoJssorOptions} options?
+             */
             var KendoJssorOptions = /** @class */ (function () {
                 function KendoJssorOptions() {
                     this.name = "Jssor";
@@ -936,7 +943,8 @@ var kendo;
                     var thumbnail = "";
                     if (j.thumbnailNavigation) {
                         thumbnail = !this.notSet(j.thumbnailNavigation.itemHtml)
-                            ? "\n" + kendo.format(kendo.template(j.thumbnailNavigation.itemHtml)(j), "#= data." + o.dataThumbnailField + "#", "#= data." + o.dataCaptionField + "#", "#= data." + o.dataDescriptionField + "#")
+                            ? "\n" +
+                                kendo.format(kendo.template(j.thumbnailNavigation.itemHtml)(j), "#= data." + o.dataThumbnailField + "#", "#= data." + o.dataCaptionField + "#", "#= data." + o.dataDescriptionField + "#")
                             : "";
                     }
                     var dataUid = " " + kendo.attr("uid") + "=\"#= data.uid #\"";
@@ -1222,6 +1230,7 @@ var kendo;
                     // returns the datasource OR creates one if using array or configuration object
                     // ReSharper disable once RedundantQualifier
                     this.dataSource = kendo.data.DataSource.create(o.dataSource);
+                    //this.dataSource.add(o.dataSource);
                     // bind to the change event to refresh the widget
                     this.dataSource
                         .bind(CHANGE, this._refreshHandler)

@@ -1,4 +1,5 @@
-/// <reference path="kendo.jssor.transitions.ts" />
+/// <reference path="./jquery/jquery.d.ts" />
+/// <reference path="./kendo.jssor.transitions.ts" />
 "use strict";
 var kendo;
 (function (kendo) {

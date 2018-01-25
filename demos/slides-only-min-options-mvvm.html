@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>kendo.jssor - navigation templates with override</title>
+    
+    <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../scripts/jssor/jssor.slider.min.js"></script>
+    <script src="../scripts/kendo/kendo.ui.core.js"></script>
+    <script src="../scripts/jssor/kendo.jssor.all.min.js"></script>
+</head>
+<body>
+
+<div
+    id="jssorDiv"
+    data-role="jssor"
+    data-bind="source: imagedata, jssor: jssorOptions"
+    data-auto-bind="true"></div>
+
+<script>
+    var viewModel = kendo.observable({
+        isVisible: true,
+        imagedata: [
+            { image: "images/021.jpg" },
+            { image: "images/022.jpg" },
+            { image: "images/023.jpg" },
+            { image: "images/024.jpg" },
+            { image: "images/025.jpg" },
+            { image: "images/026.jpg" }
+        ],
+        jssorOptions: {
+            container: { width: 980, height: 380 }
+        }
+    });
+    kendo.bind($(document.body), viewModel);
+</script>
+</body>
+</html>

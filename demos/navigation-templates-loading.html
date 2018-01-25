@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>kendo.jssor - navigation templates with override</title>
+    
+    <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../scripts/jssor/jssor.slider.min.js"></script>
+    <script src="../scripts/kendo/kendo.ui.core.js"></script>
+    <script src="../scripts/jssor/kendo.jssor.all.min.js"></script>
+</head>
+<body>
+<div id="jssorDiv"></div>
+
+<script>
+    var imagedata = [
+        { image: "images/021.jpg" },
+        { image: "images/022.jpg" },
+        { image: "images/023.jpg" },
+        { image: "images/024.jpg" },
+        { image: "images/025.jpg" },
+        { image: "images/026.jpg" }
+    ];
+
+    var jssoroptions = {
+        dataSource: imagedata,
+        autoBind: true,
+        jssor: {
+            container: {
+                width: 980,
+                height: 380
+            },
+            arrowNavigation: {
+                templateFile: "../scripts/jssor/templates/arrow/arrow-skin-051-white.json", // <== template from file
+                show: kendo.ui.jssor.ShowType.MouseOver, // <== Default is Always
+                "itemWidth": 70, // <== Default is 55
+                "itemHeight": 70 // <== Default is 55
+            },
+            bulletNavigation: {
+                templateFile: "../scripts/jssor/templates/bullet/bullet-skin-031-black.json",
+                itemWidth: 24, // <== Default is 16
+                itemHeight: 24 // <== Default is 16
+            }
+        }
+    };
+
+    $("#jssorDiv").kendoJssor(jssoroptions);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #262626;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.fieldset {
+    padding: 10px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.label {
+}
+
+.field {
+    width: 100%;
+}
+
+/*Flex items*/
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.list-item {
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+@media all and (min-width: 30em) {
+    .list-item {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 50em) {
+    .list-item {
+        width: 33.33%;
+    }
+}
+
+.list-item2 {
+    display: flex;
+    padding: 0;
+    width: 100%;
+}
+
+@media all and (min-width: 30em) {
+    .list-item2 {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 50em) {
+    .list-item2 {
+        width: 66.66%;
+    }
+}
+
+.list-content {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 100%;
+}
+
+    .list-content fieldset {
+        flex: 1 0 auto;
+    }
+
+div.table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+div.tr {
+    display: table-row;
+    width: 100%;
+}
+
+div.td-label {
+    display: table-cell;
+    width: 50%;
+    padding-right: 5px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+div.td-field {
+    display: table-cell;
+    width: 50%;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+

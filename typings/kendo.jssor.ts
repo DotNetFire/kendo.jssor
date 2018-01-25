@@ -4,7 +4,7 @@
 /// <reference path="kendo/kendo.missing.d.ts" />
 /// <reference path="jssor/index.d.ts" />
 /// <reference path="kendo.jssor.options.ts" />
-
+//Hell
 "use strict";
 
 // ReSharper disable once InconsistentNaming
@@ -22,10 +22,12 @@ module kendo.ui.jssor {
 
 
     //#region --[ widget options ]--
-
     export interface IKendoJssorOptions {
         name: string;
 
+        /**
+         * 
+         */
         jssor?: IJssorTheme;
 
 
@@ -34,7 +36,16 @@ module kendo.ui.jssor {
         dataSource?: any | any[] | kendo.data.DataSource;
         autoBind: boolean;
 
+        /**
+         * The field of the data item that provides the image url of a slide.
+         * The widget will filter the data source based on this field.
+         */
         dataImageField?: string;
+
+        /**
+         * The field of the data item that provides the thumbnail url of a slide.
+         * The widget will filter the data source based on this field.
+         */
         dataThumbnailField?: string;
         dataCaptionField?: string;
         dataDescriptionField?: string;
@@ -42,6 +53,11 @@ module kendo.ui.jssor {
         dataTargetUrlField?: string;
     }
 
+    /**
+     * 
+     * @param {Element} element
+     * @param {IKendoJssorOptions} options?
+     */
     export class KendoJssorOptions implements IKendoJssorOptions {
         public name: string = "Jssor";
 
@@ -369,40 +385,74 @@ module kendo.ui.jssor {
 
 
         private convertOptions(options: IKendoJssorOptions): IJssorOptions {
-            var result: IJssorOptions = { };
+            var result: IJssorOptions = {};
 
             var jssor = options.jssor;
 
-            if (!this.notSet(jssor.autoPlay)) { result.$AutoPlay = jssor.autoPlay; }
-            if (!this.notSet(jssor.autoPlaySteps)) { result.$AutoPlaySteps = jssor.autoPlaySteps; }
-            if (!this.notSet(jssor.loop)) { result.$Loop = jssor.loop; }
-            if (!this.notSet(jssor.startSlide)) { result.$StartIndex = jssor.startSlide; }
-            if (!this.notSet(jssor.pauseOnHover)) { result.$PauseOnHover = jssor.pauseOnHover; }
-            if (!this.notSet(jssor.dragOrientation)) { result.$DragOrientation = jssor.dragOrientation; }
-            if (!this.notSet(jssor.minDragOffsetToSlide)) { result.$MinDragOffsetToSlide = jssor.minDragOffsetToSlide; }
+            if (!this.notSet(jssor.autoPlay)) {
+                result.$AutoPlay = jssor.autoPlay;
+            }
+            if (!this.notSet(jssor.autoPlaySteps)) {
+                result.$AutoPlaySteps = jssor.autoPlaySteps;
+            }
+            if (!this.notSet(jssor.loop)) {
+                result.$Loop = jssor.loop;
+            }
+            if (!this.notSet(jssor.startSlide)) {
+                result.$StartIndex = jssor.startSlide;
+            }
+            if (!this.notSet(jssor.pauseOnHover)) {
+                result.$PauseOnHover = jssor.pauseOnHover;
+            }
+            if (!this.notSet(jssor.dragOrientation)) {
+                result.$DragOrientation = jssor.dragOrientation;
+            }
+            if (!this.notSet(jssor.minDragOffsetToSlide)) {
+                result.$MinDragOffsetToSlide = jssor.minDragOffsetToSlide;
+            }
             if (!this.notSet(jssor.keyboardNavigation)) {
                 result.$ArrowKeyNavigation = jssor.keyboardNavigationSteps ? jssor.keyboardNavigationSteps : 1;
-            } else { 
+            } else {
                 result.$ArrowKeyNavigation = 0;
             }
 
-            if (!this.notSet(jssor.slide.width)) { result.$SlideWidth = jssor.slide.width; }
-            if (!this.notSet(jssor.slide.height)) { result.$SlideHeight = jssor.slide.height; }
-            if (!this.notSet(jssor.slide.columns)) { result.$Cols = jssor.slide.columns; }
-            if (!this.notSet(jssor.slide.spacing)) { result.$SlideSpacing = jssor.slide.spacing; }
-            if (!this.notSet(jssor.slide.align)) { result.$Align = jssor.slide.align; }
-            if (!this.notSet(jssor.slide.orientation)) { result.$PlayOrientation = jssor.slide.orientation; }
-            if (!this.notSet(jssor.slide.fillmode)) { result.$FillMode = jssor.slide.fillmode; }
-            if (!this.notSet(jssor.idle)) { result.$Idle = jssor.idle; }
-            if (!this.notSet(jssor.duration)) { result.$SlideDuration = jssor.duration; }
-            if (!this.notSet(jssor.ease)) { result.$SlideEasing = Jssor.mapEasing(jssor.ease); }
+            if (!this.notSet(jssor.slide.width)) {
+                result.$SlideWidth = jssor.slide.width;
+            }
+            if (!this.notSet(jssor.slide.height)) {
+                result.$SlideHeight = jssor.slide.height;
+            }
+            if (!this.notSet(jssor.slide.columns)) {
+                result.$Cols = jssor.slide.columns;
+            }
+            if (!this.notSet(jssor.slide.spacing)) {
+                result.$SlideSpacing = jssor.slide.spacing;
+            }
+            if (!this.notSet(jssor.slide.align)) {
+                result.$Align = jssor.slide.align;
+            }
+            if (!this.notSet(jssor.slide.orientation)) {
+                result.$PlayOrientation = jssor.slide.orientation;
+            }
+            if (!this.notSet(jssor.slide.fillmode)) {
+                result.$FillMode = jssor.slide.fillmode;
+            }
+            if (!this.notSet(jssor.idle)) {
+                result.$Idle = jssor.idle;
+            }
+            if (!this.notSet(jssor.duration)) {
+                result.$SlideDuration = jssor.duration;
+            }
+            if (!this.notSet(jssor.ease)) {
+                result.$SlideEasing = Jssor.mapEasing(jssor.ease);
+            }
             if (!this.notSet(jssor.lazyLoading)) {
                 result.$LazyLoading = jssor.numImages2Preload ? jssor.numImages2Preload : 1;
             }
 
             var s: ISlideshow = jssor.slideshow;
             if (!this.notSet(s) && s.enabled) {
-                
+
                 var transitions: IJssorTransition[] = [];
                 if (s.transitions.length > 0) {
                     s.transitions.forEach(v => {
@@ -436,12 +486,24 @@ module kendo.ui.jssor {
                     $Class: $JssorBulletNavigator$,
                     $ChanceToShow: b.show
                 };
-                if (b.spacingX) { result.$BulletNavigatorOptions.$SpacingX = b.spacingX; }
-                if (b.spacingY) { result.$BulletNavigatorOptions.$SpacingY = b.spacingY; }
-                if (b.steps) { result.$BulletNavigatorOptions.$Steps = b.steps; }
-                if (b.rows) { result.$BulletNavigatorOptions.$Rows = b.rows; }
-                if (b.orientation) { result.$BulletNavigatorOptions.$Orientation = b.orientation; }
-                if (b.action) { result.$BulletNavigatorOptions.$ActionMode = b.action; }
+                if (b.spacingX) {
+                    result.$BulletNavigatorOptions.$SpacingX = b.spacingX;
+                }
+                if (b.spacingY) {
+                    result.$BulletNavigatorOptions.$SpacingY = b.spacingY;
+                }
+                if (b.steps) {
+                    result.$BulletNavigatorOptions.$Steps = b.steps;
+                }
+                if (b.rows) {
+                    result.$BulletNavigatorOptions.$Rows = b.rows;
+                }
+                if (b.orientation) {
+                    result.$BulletNavigatorOptions.$Orientation = b.orientation;
+                }
+                if (b.action) {
+                    result.$BulletNavigatorOptions.$ActionMode = b.action;
+                }
             }
 
             var t = jssor.thumbnailNavigation;
@@ -451,13 +513,25 @@ module kendo.ui.jssor {
                     $ChanceToShow: t.show
                 };
 
-                if (!this.notSet(t.spacingX)) { result.$ThumbnailNavigatorOptions.$SpacingX = t.spacingX; }
-                if (!this.notSet(t.spacingY)) { result.$ThumbnailNavigatorOptions.$SpacingY = t.spacingY; }
-                if (!this.notSet(t.rows)) { result.$ThumbnailNavigatorOptions.$Rows = t.rows; }
-                if (!this.notSet(t.orientation)) { result.$ThumbnailNavigatorOptions.$Orientation = t.orientation; }
-                if (!this.notSet(t.action)) { result.$ThumbnailNavigatorOptions.$ActionMode = t.action; }
+                if (!this.notSet(t.spacingX)) {
+                    result.$ThumbnailNavigatorOptions.$SpacingX = t.spacingX;
+                }
+                if (!this.notSet(t.spacingY)) {
+                    result.$ThumbnailNavigatorOptions.$SpacingY = t.spacingY;
+                }
+                if (!this.notSet(t.rows)) {
+                    result.$ThumbnailNavigatorOptions.$Rows = t.rows;
+                }
+                if (!this.notSet(t.orientation)) {
+                    result.$ThumbnailNavigatorOptions.$Orientation = t.orientation;
+                }
+                if (!this.notSet(t.action)) {
+                    result.$ThumbnailNavigatorOptions.$ActionMode = t.action;
+                }
                 result.$ThumbnailNavigatorOptions.$Loop = t.loop ? 1 : 0;
-                if (!this.notSet(t.align)) { result.$ThumbnailNavigatorOptions.$Align = t.align; }
+                if (!this.notSet(t.align)) {
+                    result.$ThumbnailNavigatorOptions.$Align = t.align;
+                }
                 result.$ThumbnailNavigatorOptions.$NoDrag = this.notSet(t.noDrag) ? false : t.noDrag;
             }
 
@@ -614,7 +688,8 @@ module kendo.ui.jssor {
             var bgColor = j.container.bgColor ? `background-color:${j.container.bgColor};` : "";
 
             this.sliderElement = $(`
-<div id="${j.id}-container" style="${center}position:relative;top:0;left:0;width:${j.container.width}px;height:${j.container.height}px;overflow:hidden; ${bgColor}"></div>`);
+<div id="${j.id}-container" style="${center}position:relative;top:0;left:0;width:${j.container.width}px;height:${
+                j.container.height}px;overflow:hidden; ${bgColor}"></div>`);
 
             this.element.append(this.sliderElement);
         }
@@ -626,7 +701,9 @@ module kendo.ui.jssor {
         private renderSlices(): void {
 
             var o = (<IJssorTheme>this.options.jssor).slideContainer;
-            var slices = $(`<div u="slides" style="cursor:default;position:relative;top:${o.y}px;left:${o.x}px;width:${o.width}px;height:${o.height}px;overflow:hidden;"></div>`);
+            var slices =
+                $(`<div u="slides" style="cursor:default;position:relative;top:${o.y}px;left:${o.x}px;width:${o.width
+                    }px;height:${o.height}px;overflow:hidden;"></div>`);
 
             //build slide an apply template
             var template = this.renderSliceTemplate();
@@ -659,13 +736,18 @@ module kendo.ui.jssor {
             var thumbnail: string = "";
             if (j.thumbnailNavigation) {
                 thumbnail = !this.notSet(j.thumbnailNavigation.itemHtml)
-                    ? "\n" + kendo.format(kendo.template(j.thumbnailNavigation.itemHtml)(j), `#= data.${o.dataThumbnailField}#`, `#= data.${o.dataCaptionField}#`, `#= data.${o.dataDescriptionField}#`)
+                    ? "\n" +
+                    kendo.format(kendo.template(j.thumbnailNavigation.itemHtml)(j),
+                        `#= data.${o.dataThumbnailField}#`,
+                        `#= data.${o.dataCaptionField}#`,
+                        `#= data.${o.dataDescriptionField}#`)
                     : "";
             }
 
             var dataUid: string = ` ${kendo.attr("uid")}="#= data.uid #"`;
             var templateStr = `
-<div>${aOpen}<img data-u="image"${dataUid}${imgSrc}="#= data.${o.dataImageField}#" />${aClose}${thumbnail}${content}</div>`;
+<div>${aOpen}<img data-u="image"${dataUid}${imgSrc}="#= data.${o.dataImageField}#" />${aClose}${thumbnail}${content
+                }</div>`;
             return kendo.template(templateStr);
 
         }
@@ -690,7 +772,8 @@ module kendo.ui.jssor {
                 var wh: string = (j.debugLoading) ? "bottom:0px;right:0px;" : "width:100%;height:100%;";
 
                 var template: string = `
-    <div data-u="${datau}" ${lClass} style="position:absolute;top:0px;left:0px;${wh}text-align:center;${bgColor}${zindex}">
+    <div data-u="${datau}" ${lClass} style="position:absolute;top:0px;left:0px;${wh}text-align:center;${bgColor}${
+                    zindex}">
         ${bSvg}
     </div>`;
                 this.sliderElement.append(template);
@@ -730,11 +813,15 @@ module kendo.ui.jssor {
                 var rSvg = a.rightArrow.svg ? kendo.template(a.rightArrow.svg)(j) : "";
 
                 var lArrow: string = `
-<div data-u="arrowleft" ${lClass} style="width:${a.itemWidth}px;height:${a.itemHeight}px;top:${a.leftArrow.verticalOffset}px;left:${a.leftArrow.horizontalOffset}px;"${dAutocenter}${dItemScale}${dPositionScaleLeft}>
+<div data-u="arrowleft" ${lClass} style="width:${a.itemWidth}px;height:${a.itemHeight}px;top:${
+                    a.leftArrow.verticalOffset}px;left:${a.leftArrow.horizontalOffset}px;"${dAutocenter}${dItemScale}${
+                    dPositionScaleLeft}>
     ${lSvg}
 </div>`;
                 var rArrow: string = `
-<div data-u="arrowright" ${rClass} style="width:${a.itemWidth}px;height:${a.itemHeight}px;top:${a.rightArrow.verticalOffset}px;right:${a.rightArrow.horizontalOffset}px;"${dAutocenter}${dItemScale}${dPositionScaleRight}>
+<div data-u="arrowright" ${rClass} style="width:${a.itemWidth}px;height:${a.itemHeight}px;top:${
+                    a.rightArrow.verticalOffset}px;right:${a.rightArrow.horizontalOffset}px;"${dAutocenter}${dItemScale
+                    }${dPositionScaleRight}>
     ${rSvg}
 </div>`;
 
@@ -754,8 +841,12 @@ module kendo.ui.jssor {
                 var dAutocenter: string = "";
                 var dItemScale: string = "";
                 var dPositionScale: string = "";
-                if (b.autoCenter) { dAutocenter = ` data-autocenter="${b.autoCenter}"`; }
-                if (b.itemScale) { dItemScale = ` data-scale="${b.itemScale}"`; }
+                if (b.autoCenter) {
+                    dAutocenter = ` data-autocenter="${b.autoCenter}"`;
+                }
+                if (b.itemScale) {
+                    dItemScale = ` data-scale="${b.itemScale}"`;
+                }
                 if (b.positionScale) {
                     dPositionScale = ` data-scale-right="${b.positionScale}"`;
                 }
@@ -767,8 +858,10 @@ module kendo.ui.jssor {
                 var bSvg: string = b.svg ? kendo.template(b.svg)(j) : "";
 
                 var bullet = `
-    <div data-u="navigator" ${bClass} style="position:absolute;bottom:${b.verticalOffset}px;right:${b.horizontalOffset}px;"${dAutocenter}${dItemScale}${dPositionScale}>
-        <div data-u="prototype" class="i" style="width:${b.itemWidth}px;height:${b.itemHeight}px;${fontsize}${lineHeight}">
+    <div data-u="navigator" ${bClass} style="position:absolute;bottom:${b.verticalOffset}px;right:${b.horizontalOffset
+                    }px;"${dAutocenter}${dItemScale}${dPositionScale}>
+        <div data-u="prototype" class="i" style="width:${b.itemWidth}px;height:${b.itemHeight}px;${fontsize}${
+                    lineHeight}">
             ${bSvg}
         </div>
     </div>`;
@@ -804,14 +897,30 @@ module kendo.ui.jssor {
                         : AutocenterType.None;
                     switch (autocentertype) {
                         case AutocenterType.None:
-                            if (top) { scaleWhere.push("top"); } else if (bottom) { scaleWhere.push("bottom"); }
-                            if (left) { scaleWhere.push("left"); } else if (right) { scaleWhere.push("right"); }
+                            if (top) {
+                                scaleWhere.push("top");
+                            } else if (bottom) {
+                                scaleWhere.push("bottom");
+                            }
+                            if (left) {
+                                scaleWhere.push("left");
+                            } else if (right) {
+                                scaleWhere.push("right");
+                            }
                             break;
                         case AutocenterType.Vertical:
-                            if (top) { scaleWhere.push("top"); } else if (bottom) { scaleWhere.push("bottom"); }
+                            if (top) {
+                                scaleWhere.push("top");
+                            } else if (bottom) {
+                                scaleWhere.push("bottom");
+                            }
                             break;
                         case AutocenterType.Horizontal:
-                            if (left) { scaleWhere.push("left"); } else if (right) { scaleWhere.push("right"); }
+                            if (left) {
+                                scaleWhere.push("left");
+                            } else if (right) {
+                                scaleWhere.push("right");
+                            }
                             break;
                     }
                     scaleWhere.forEach(v => {
@@ -825,7 +934,8 @@ module kendo.ui.jssor {
 
 
                 var thumbnail = `
-<div data-u="thumbnavigator" ${tClass} style="position:absolute;${left}${right}${top}${bottom}${width}${height}${bgColor}"${autocenter}${dPositionScale}>
+<div data-u="thumbnavigator" ${tClass} style="position:absolute;${left}${right}${top}${bottom}${width}${height}${
+                    bgColor}"${autocenter}${dPositionScale}>
     <div data-u='slides'>
         <div data-u="prototype" class="p" style="${itemWidth}${itemHeight}">
             <div data-u="thumbnailtemplate" class="t"></div>
@@ -993,15 +1103,16 @@ module kendo.ui.jssor {
             }
 
             //if (o.dataSource) {
-                // returns the datasource OR creates one if using array or configuration object
-                // ReSharper disable once RedundantQualifier
-                this.dataSource = kendo.data.DataSource.create(o.dataSource);
-                // bind to the change event to refresh the widget
-                this.dataSource
-                    .bind(CHANGE, this._refreshHandler)
-                    .bind(PROGRESS, this._progressHandler)
-                    .bind(ERROR, this._errorHandler);
-                this._dataSourceBound = true;
+            // returns the datasource OR creates one if using array or configuration object
+            // ReSharper disable once RedundantQualifier
+            this.dataSource = kendo.data.DataSource.create(o.dataSource);
+            //this.dataSource.add(o.dataSource);
+            // bind to the change event to refresh the widget
+            this.dataSource
+                .bind(CHANGE, this._refreshHandler)
+                .bind(PROGRESS, this._progressHandler)
+                .bind(ERROR, this._errorHandler);
+            this._dataSourceBound = true;
             //}
 
             if (this.dataSource && o.autoBind) {
@@ -1009,11 +1120,12 @@ module kendo.ui.jssor {
             }
 
         }
-        
+
         // ReSharper disable once InconsistentNaming
         private _progress(): void {
             progress(this.element, true);
         }
+
         // ReSharper disable once InconsistentNaming
         private _error() {
             progress(this.element, false);
@@ -1041,7 +1153,7 @@ module kendo.ui.jssor {
             this._unbindDataSource();
             //this.element.off(NS);
             kendo.destroy(this.element);
-        }   
+        }
 
         private notSet(value: any): boolean {
             return value === null || value === undefined;
@@ -1099,18 +1211,18 @@ module kendo.ui.jssor {
             return false;
         }
 
-       /**
-        * Pause the slider, prevent it from auto playing
-        *
-        * @fn  public pause() : void
-        *
-        * @brief   Pause the slider, prevent it from auto playing
-        *
-        * @author  Administrator
-        * @date    19.01.2018
-        */
+        /**
+         * Pause the slider, prevent it from auto playing
+         *
+         * @fn  public pause() : void
+         *
+         * @brief   Pause the slider, prevent it from auto playing
+         *
+         * @author  Administrator
+         * @date    19.01.2018
+         */
 
-        public pause() : void {
+        public pause(): void {
             if (this.slider) {
                 this.slider.$Pause();
             }
@@ -1291,6 +1403,7 @@ module kendo.ui.jssor {
             }
             return undefined;
         }
+
         //#endregion
     }
 

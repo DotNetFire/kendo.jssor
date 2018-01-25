@@ -26,8 +26,7 @@ module kendo.ui.jssor.transition {
         JumpIn = 19,
         Stone = 20
     }
-
-    export interface ITransitionGroupElement {
+    export interface ITrandsitionGroupElement {
         name: string;
         group: TransitionGroupType;
         transition: string;

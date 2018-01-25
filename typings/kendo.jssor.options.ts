@@ -1,8 +1,8 @@
-﻿/// <reference path="kendo.jssor.transitions.ts" />
+﻿/// <reference path="./jquery/jquery.d.ts" />
+/// <reference path="./kendo.jssor.transitions.ts" />
 "use strict";
 
 module kendo.ui.jssor {
-    import ITransitionGroupElement = ui.jssor.transition.ITransitionGroupElement;
 
     //#region --[ enums ]--
 
@@ -790,7 +790,7 @@ module kendo.ui.jssor {
         /**
         * An array of slideshow transitions to play slideshow
         */
-        transitions: ITransitionGroupElement[];
+        transitions: kendo.ui.jssor.transition.ITrandsitionGroupElement[];
 
         /**
         * The way to choose transition to play slideshow:

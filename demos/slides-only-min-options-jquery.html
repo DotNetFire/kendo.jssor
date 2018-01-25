@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>kendo.jssor - navigation templates with override</title>
+    
+    <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../scripts/jssor/jssor.slider.min.js"></script>
+    <script src="../scripts/kendo/kendo.ui.core.js"></script>
+    <script src="../scripts/jssor/kendo.jssor.all.min.js"></script>
+</head>
+<body>
+<div id="jssorDiv"></div>
+
+<script>
+    var imagedata = [
+        { image: "images/021.jpg" },
+        { image: "images/022.jpg" },
+        { image: "images/023.jpg" },
+        { image: "images/024.jpg" },
+        { image: "images/025.jpg" },
+        { image: "images/026.jpg" }
+    ];
+
+    var jssoroptions = {
+        dataSource: imagedata,
+        autoBind: true,
+        jssor: {
+            container: { width: 980, height: 380 }
+        }
+    };
+
+    $("#jssorDiv").kendoJssor(jssoroptions);
+
+</script>
+</body>
+</html>
