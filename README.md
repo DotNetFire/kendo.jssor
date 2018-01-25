@@ -185,6 +185,34 @@ You can load navigation templates from a file and override the default settings.
         }
     }
 ```
+### Slideshow with transitions
+
+[Demo](http://kendo.jssor.dotnetfire.net/demos/slideshow-with-transitions.html)
+
+``` js
+var jssoroptions = {
+        dataSource: imagedata,
+        autoBind: true,
+        jssor: {
+            container: { width: 980, height: 380 },
+            "slideshow": {
+                enabled: true,
+                order: kendo.ui.jssor.TransitionsOrderType.Random,
+                showLink: false,
+                transitions: [
+                    {
+                        name: "Fly Right Random",
+                        transition: "{ $Duration: 500, x: 1, $Delay: 40, $Cols: 10, $Rows: 5, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$OutQuad }, $Opacity: 2 }"
+                    },
+                    {
+                        name: "Dominoes Stripe",
+                        transition: "{ $Duration: 1600, y: -1, $Delay: 40, $Cols: 24, $SlideOut: true, $Formation: $JssorSlideshowFormations$.$FormationStraight, $Easing: $Jease$.$OutJump, $Round: { $Top: 1.5 } }"
+                    }
+                ]
+            }
+        }
+    };
+```
 
 ## Related
 [Jssor Slider](https://www.jssor.com/)<br/>
