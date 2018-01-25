@@ -65,7 +65,7 @@ Documentation in progress...
 
 ### JQuery Syntax
 #### Html:
-Your slider-&quot;&lt;div /&gt;" only needs an id...
+Your slider-&quot;&lt;div /&gt;&quot; only needs an id...
 ``` html
 <div id="jssorDiv"></div>
 ```
@@ -89,7 +89,7 @@ $("#jssorDiv").kendoJssor(options);
     
 ### MVVM
 #### Html:
-Slider-&quot;&lt;div /&gt;&quot; (MVVM syntax)...
+The data role for kendo.jssor is "jssor". Please note that the &quot;&lt;div /&gt;&quot;-element MUST have an id, because the Jssor Slider must be initialized with an element id. Use the "data-bind" attribute to assign imagedata (source: ...) and options (jssor: ...) fields of your ViewModel.
 ``` html
 <div
     id="jssorDiv"
