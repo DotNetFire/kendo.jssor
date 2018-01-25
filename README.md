@@ -187,8 +187,8 @@ You can load navigation templates from a file and override the default settings.
                 templateFile: "scripts/jssor/templates/arrow/arrow-skin-051-white.json",
                 // Override default values:
                 show: kendo.ui.jssor.ShowType.MouseOver, // <== Default is Always
-                "itemWidth": 70, // <== Default is 55
-                "itemHeight": 70 // <== Default is 55
+                itemWidth: 70, // <== Default is 55
+                itemHeight: 70 // <== Default is 55
             },
             bulletNavigation: {
                 // Bullet template from file:
