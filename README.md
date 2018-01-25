@@ -70,7 +70,7 @@ Your slider-&quot;&lt;div /&gt;&quot; only needs an id...
 <div id="jssorDiv"></div>
 ```
 #### Javascript:
-For the minimum slider definition, you must specify an array of images as the data source and the height and width of the slider container. 
+For the minimum slider definition, you must specify an array of images as data source and the height and width of your slider container. 
 ``` js
 var images = [ 
     { "image": "images/021.jpg" },
