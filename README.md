@@ -91,7 +91,7 @@ var options = {
                 minDragOffsetToSlide: 3,
                 keyboardNavigation: true,
                 keyboardNavigationSteps: 1,
-                container: { width: 980, height: 340 },
+                container: { width: 980, height: 380 },
                 slideContainer: { x: 0, y: 0 }
         }
     };
@@ -130,7 +130,7 @@ var viewModel = kendo.observable({
         minDragOffsetToSlide: 3,
         keyboardNavigation: true,
         keyboardNavigationSteps: 1,
-        container: { width: 980, height: 340 },
+        container: { width: 980, height: 380 },
         slideContainer: { x: 0, y: 0 }
     }
 });
@@ -146,10 +146,7 @@ You can load navigation templates from a file and override the default settings.
         dataSource: imagedata,
         autoBind: true,
         jssor: {
-            container: {
-                width: 980,
-                height: 380
-            },
+            container: { width: 980, height: 380 },
             arrowNavigation: {
                 // Arrow template from file:
                 templateFile: "scripts/jssor/templates/arrow/arrow-skin-051-white.json",
@@ -160,7 +157,7 @@ You can load navigation templates from a file and override the default settings.
             },
             bulletNavigation: {
                 // Bullet template from file:
-                templateFile: "scripts/jssor/templates/bullet/bullet-skin-031-black.json", // <== template from file
+                templateFile: "scripts/jssor/templates/bullet/bullet-skin-031-black.json",
                 // Override default values:
                 itemWidth: 24, // <== Default is 16
                 itemHeight: 24 // <== Default is 16
