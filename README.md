@@ -65,10 +65,12 @@ Documentation in progress...
 
 ### JQuery Syntax
 #### Html:
+Your slider-&quot;&lt;div /&gt;" only needs an id...
 ``` html
 <div id="jssorDiv"></div>
 ```
 #### Javascript:
+For the minimum slider definition, you must specify an array of images as the data source and the height and width of the slider container. 
 ``` js
 var images = [ 
     { "image": "images/021.jpg" },
@@ -87,6 +89,7 @@ $("#jssorDiv").kendoJssor(options);
     
 ### MVVM
 #### Html:
+Slider-&quot;&lt;div /&gt;&quot; (MVVM syntax)...
 ``` html
 <div
     id="jssorDiv"
@@ -95,6 +98,7 @@ $("#jssorDiv").kendoJssor(options);
     data-auto-bind="true"></div>
 ```
 #### Javascript:
+You need a ViewModel that contains the image data and the options. Bind the ViewModel with kendo.bind(...) to the jssor-&quot;&lt;div /&gt;&quot; or to a higher-level HTML element, such as document.body.
 ``` js
 var viewModel = kendo.observable({
     isVisible: true,
