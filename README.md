@@ -215,7 +215,8 @@ var jssoroptions = {
 ```
 
 ## Related
-[Jssor Slider](https://www.jssor.com/)<br/>
+[Jssor Slider (Homepage](https://www.jssor.com/)<br/>
+[Jssor Slider (GitHub](https://github.com/jssor/slider)<br/>
 [Kendo UI Core](https://github.com/telerik/kendo-ui-core)
 
 ## Donate
