@@ -23,6 +23,7 @@ Feature description in progress...
 | Image slides | :heavy_check_mark: | Binding of image url, thumbnail url, caption, description and content (static / fixed HTML). The field names of the data item can be set by options |
 | Navigation skins | :heavy_check_mark: | Navigation and loading screen skins can be set via widget options. |
 | JSON templates for skins | :heavy_check_mark: | Loading of templates for navigation (arrow, bullet, thumbnail) and loading screen from JSON files (currently only synchronous loading when refreshing the widget). Default settings from the template can be overridden with the widget options. |
+| Jssor 27.0 | :heavy_plus_sign: | Upgrade to Jssor 27.0 and usage / implemenation of new function ($AppendSlides(), $RemoveSlides(), $ReloadSlides(), $Destroy()) for slide operations and databinding. |
 | kendo & Jssor events | :heavy_plus_sign: | Currently allows the widget events "change", "dataBinding" and "dataBound". No Jssor events yet (e.g. "$ EVT_CLICK", "$EVT_DRAG_START", ...)  |
 | Documentation | :heavy_plus_sign: | Class and interface documenation for typescript |
 | Slide layers | :o: | At the moment kendo.jssor does not allow slide layers and animations. |
